@@ -74,7 +74,7 @@ st.write('')
 min_year = crime_df['Year'].min()
 max_year = crime_df['Year'].max()
 
-# Year Slider
+# Year Slider: Controls the time range for the plots below
 from_year, to_year = st.slider(
     'Which years are you interested in?',
     min_value=min_year,
@@ -98,9 +98,9 @@ st.write('')
 st.write('')
 st.write('')
 
-# --- Filter Data ---
+# --- Filter Data (Based on Slider) ---
 
-# Use .loc for safer and clearer DataFrame filtering
+# This DataFrame is used for all plots to show the user-selected period.
 filtered_crime_df = crime_df.loc[
     (crime_df['AREA_NAME'].isin(selected_hoods))
     & (crime_df['Year'] <= to_year)
@@ -121,7 +121,7 @@ st.line_chart(
 st.write('')
 st.write('')
 
-# --- New Bar Chart Visualization (Altair) ---
+# --- Bar Chart Visualization (Altair) ---
 st.header('Neighbourhood Crime Volume Bar Chart', divider='gray')
 
 # Use Altair for advanced coloring in the bar chart
@@ -156,16 +156,20 @@ if not filtered_crime_df.empty:
 
     st.altair_chart(bar_chart, use_container_width=True)
 
-# --- Metric Comparison ---
+# --- Metric Comparison (Fixed 2024 vs 2025) ---
 
-# FIX: Explicitly format the year as an integer {:d} to prevent unwanted comma separators (e.g., 2,025 -> 2025).
-st.header(f'Crime Volume Comparison ({to_year-1:d} vs. {to_year:d})', divider='gray')
+# Define the fixed comparison years for the metrics below
+START_COMPARE_YEAR = to_year-1
+END_COMPARE_YEAR = to_year
 
-st.write(f"Comparing total crime volume per neighbourhood between {to_year-1} and {to_year}.")
+# Update header and description to use fixed years (2024 vs 2025)
+st.header(f'Crime Volume Comparison ({START_COMPARE_YEAR:d} vs. {END_COMPARE_YEAR:d})', divider='gray')
 
-# Filter for the specific comparison years
-first_year_df = crime_df.loc[crime_df['Year'] == from_year]
-last_year_df = crime_df.loc[crime_df['Year'] == to_year]
+st.write(f"Comparing total crime volume per neighbourhood between {START_COMPARE_YEAR} (Actual) and {END_COMPARE_YEAR} (Forecast).")
+
+# Filter for the specific fixed comparison years
+first_year_df = crime_df.loc[crime_df['Year'] == START_COMPARE_YEAR]
+last_year_df = crime_df.loc[crime_df['Year'] == END_COMPARE_YEAR]
 
 # Create columns for the metric display (up to 4 per row)
 cols = st.columns(min(4, len(selected_hoods)))
@@ -177,11 +181,11 @@ for i, hood in enumerate(selected_hoods):
     with col:
         # Use .loc and .iloc[0] for explicit, safe retrieval
         
-        # Retrieval for the starting year
+        # Retrieval for the starting year (2024)
         first_crime_series = first_year_df.loc[first_year_df['AREA_NAME'] == hood, 'Total_Crimes']
         first_crime = first_crime_series.iloc[0] if not first_crime_series.empty else None
 
-        # Retrieval for the ending year
+        # Retrieval for the ending year (2025)
         last_crime_series = last_year_df.loc[last_year_df['AREA_NAME'] == hood, 'Total_Crimes']
         last_crime = last_crime_series.iloc[0] if not last_crime_series.empty else None
 
