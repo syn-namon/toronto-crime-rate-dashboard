@@ -82,10 +82,10 @@ from_year, to_year = st.slider(
     value=[min_year, max_year]
 )
 
-# Neighbourhood Multiselect
+# Neighbourhood Multiselect (This controls the Line Chart and the Metric Comparison)
 hoods = sorted(crime_df['AREA_NAME'].unique())
 selected_hoods = st.multiselect(
-    'Which neighbourhood(s) would you like to view?',
+    'Which neighbourhood(s) would you like to view (For Line Chart & Metrics)?',
     hoods
 )
 
@@ -98,9 +98,9 @@ st.write('')
 st.write('')
 st.write('')
 
-# --- Filter Data (Based on Slider) ---
+# --- Filter Data (Based on Slider and Global Hoods) ---
 
-# This DataFrame is used for all plots to show the user-selected period.
+# This DataFrame is used for the Line Chart.
 filtered_crime_df = crime_df.loc[
     (crime_df['AREA_NAME'].isin(selected_hoods))
     & (crime_df['Year'] <= to_year)
@@ -124,11 +124,30 @@ st.write('')
 # --- Bar Chart Visualization (Altair) ---
 st.header('Neighbourhood Crime Volume Bar Chart', divider='gray')
 
+# NEW: Separate filter for the bar chart
+bar_selected_hoods = st.multiselect(
+    'Which neighbourhood(s) to display in the Bar Chart?',
+    hoods,
+    default=selected_hoods # Default to the global selection from the top filter
+)
+
+# NEW: Filter data specifically for the bar chart.
+if not bar_selected_hoods:
+    st.warning("Please select at least one neighbourhood for the Bar Chart.")
+    bar_chart_df = pd.DataFrame()
+else:
+    # This DataFrame respects the time slider (from_year, to_year) but uses its own hood selection.
+    bar_chart_df = crime_df.loc[
+        (crime_df['AREA_NAME'].isin(bar_selected_hoods))
+        & (crime_df['Year'] <= to_year)
+        & (crime_df['Year'] >= from_year)
+    ]
+
 # Use Altair for advanced coloring in the bar chart
-if not filtered_crime_df.empty:
+if not bar_chart_df.empty:
     
     # Create the Altair chart object
-    bar_chart = alt.Chart(filtered_crime_df).mark_bar().encode(
+    bar_chart = alt.Chart(bar_chart_df).mark_bar().encode( # Use the new bar_chart_df
         # X-axis: Year (Nominal type for discrete bars)
         x=alt.X('Year:N', title='Year'), 
         
@@ -172,6 +191,7 @@ first_year_df = crime_df.loc[crime_df['Year'] == START_COMPARE_YEAR]
 last_year_df = crime_df.loc[crime_df['Year'] == END_COMPARE_YEAR]
 
 # Create columns for the metric display (up to 4 per row)
+# NOTE: This section still uses the global 'selected_hoods' list from the top filter
 cols = st.columns(min(4, len(selected_hoods)))
 
 for i, hood in enumerate(selected_hoods):
