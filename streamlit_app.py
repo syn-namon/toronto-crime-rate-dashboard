@@ -159,9 +159,9 @@ if not filtered_crime_df.empty:
 # --- Metric Comparison ---
 
 # FIX: Explicitly format the year as an integer {:d} to prevent unwanted comma separators (e.g., 2,025 -> 2025).
-st.header(f'Crime Volume Comparison ({from_year:d} vs. {to_year:d})', divider='gray')
+st.header(f'Crime Volume Comparison ({to_year-1:d} vs. {to_year:d})', divider='gray')
 
-st.write(f"Comparing total crime volume per neighbourhood between {from_year} and {to_year}.")
+st.write(f"Comparing total crime volume per neighbourhood between {to_year-1} and {to_year}.")
 
 # Filter for the specific comparison years
 first_year_df = crime_df.loc[crime_df['Year'] == from_year]
