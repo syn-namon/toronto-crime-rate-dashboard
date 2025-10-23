@@ -22,14 +22,14 @@ def get_gdp_data():
     """
 
     # Instead of a CSV on disk, you could read from an HTTP endpoint here too.
-    DATA_FILENAME = Path(__file__).parent/'data/gdp_data.csv'
+    DATA_FILENAME = Path(__file__).parent/'data/crime_per_hood_with_forecast_for_2025.csv'
     raw_gdp_df = pd.read_csv(DATA_FILENAME)
 
-    MIN_YEAR = 1960
-    MAX_YEAR = 2022
+    MIN_YEAR = 2014
+    MAX_YEAR = 2025
 
     # The data above has columns like:
-    # - Country Name
+    # - Neighbourhood Name
     # - Country Code
     # - [Stuff I don't care about]
     # - GDP for 1960
@@ -44,12 +44,12 @@ def get_gdp_data():
     # - Year
     # - GDP
     #
-    # So let's pivot all those year-columns into two: Year and GDP
+    # So let's pivot all those year-columns into two: Year and Crime Volume
     gdp_df = raw_gdp_df.melt(
-        ['Country Code'],
+        ['AREA_NAME'],
         [str(x) for x in range(MIN_YEAR, MAX_YEAR + 1)],
         'Year',
-        'GDP',
+        'Total_Crimes',
     )
 
     # Convert years from string to integers
@@ -84,15 +84,14 @@ from_year, to_year = st.slider(
     max_value=max_value,
     value=[min_value, max_value])
 
-countries = gdp_df['Country Code'].unique()
+hood = gdp_df['AREA_NAME'].unique()
 
 if not len(countries):
-    st.warning("Select at least one country")
+    st.warning("Select at least one neighbourhood")
 
 selected_countries = st.multiselect(
-    'Which countries would you like to view?',
-    countries,
-    ['DEU', 'FRA', 'GBR', 'BRA', 'MEX', 'JPN'])
+    'Which neighbourhood would you like to view?',
+    hood)
 
 ''
 ''
@@ -100,20 +99,20 @@ selected_countries = st.multiselect(
 
 # Filter the data
 filtered_gdp_df = gdp_df[
-    (gdp_df['Country Code'].isin(selected_countries))
+    (gdp_df['AREA_NAME'].isin(selected_countries))
     & (gdp_df['Year'] <= to_year)
     & (from_year <= gdp_df['Year'])
 ]
 
-st.header('GDP over time', divider='gray')
+st.header('Crime volume over time', divider='gray')
 
 ''
 
 st.line_chart(
     filtered_gdp_df,
     x='Year',
-    y='GDP',
-    color='Country Code',
+    y='Total_Crime',
+    color='AREA_NAME',
 )
 
 ''
@@ -123,18 +122,18 @@ st.line_chart(
 first_year = gdp_df[gdp_df['Year'] == from_year]
 last_year = gdp_df[gdp_df['Year'] == to_year]
 
-st.header(f'GDP in {to_year}', divider='gray')
+st.header(f'Crime volume in {to_year}', divider='gray')
 
 ''
 
 cols = st.columns(4)
 
-for i, country in enumerate(selected_countries):
+for i, hood in enumerate(selected_countries):
     col = cols[i % len(cols)]
 
     with col:
-        first_gdp = first_year[first_year['Country Code'] == country]['GDP'].iat[0] / 1000000000
-        last_gdp = last_year[last_year['Country Code'] == country]['GDP'].iat[0] / 1000000000
+        first_gdp = first_year[first_year['AREA_NAME'] == hood]['Total_Crime'].iat[0] / 1000000000
+        last_gdp = last_year[last_year['AREA_NAME'] == hood]['Total_Crime'].iat[0] / 1000000000
 
         if math.isnan(first_gdp):
             growth = 'n/a'
@@ -144,7 +143,7 @@ for i, country in enumerate(selected_countries):
             delta_color = 'normal'
 
         st.metric(
-            label=f'{country} GDP',
+            label=f'{hood} Crime volume',
             value=f'{last_gdp:,.0f}B',
             delta=growth,
             delta_color=delta_color
