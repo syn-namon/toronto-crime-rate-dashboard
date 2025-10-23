@@ -3,148 +3,171 @@ import pandas as pd
 import math
 from pathlib import Path
 
+# --- Configuration ---
+
 # Set the title and favicon that appear in the Browser's tab bar.
 st.set_page_config(
-    page_title='GDP dashboard',
-    page_icon=':earth_americas:', # This is an emoji shortcode. Could be a URL too.
+    page_title='Toronto Crime Volume Dashboard',
+    page_icon=':police_car:', # Changed icon to better fit the theme
+    layout='wide'
 )
 
-# -----------------------------------------------------------------------------
-# Declare some useful functions.
+# --- Data Loading and Preparation ---
 
 @st.cache_data
-def get_gdp_data():
-    """Grab GDP data from a CSV file.
-
-    This uses caching to avoid having to read the file every time. If we were
-    reading from an HTTP endpoint instead of a file, it's a good idea to set
-    a maximum age to the cache with the TTL argument: @st.cache_data(ttl='1d')
+def get_crime_data():
+    """Grab crime data from a CSV file.
+    
+    NOTE: This assumes the CSV is already in the long format:
+    AREA_NAME, Year, Total_Crimes, HOOD_ID, Data_Type
     """
 
-    # Instead of a CSV on disk, you could read from an HTTP endpoint here too.
-    DATA_FILENAME = Path(__file__).parent/'data/crime_per_hood_with_forecast_for_2025.csv'
-    raw_gdp_df = pd.read_csv(DATA_FILENAME)
+    # Update the data path to reference the expected file name
+    # The file path must be relative to where the Streamlit app is run
+    DATA_FILENAME = Path(__file__).parent / 'data/crime_per_hood_with_forecast_for_2025.csv'
+    
+    try:
+        # Load the combined data (historical + forecast)
+        crime_df = pd.read_csv(DATA_FILENAME)
+    except FileNotFoundError:
+        st.error(f"Error: Data file not found at {DATA_FILENAME}. Please ensure the file is correctly placed.")
+        # Return an empty DataFrame structure if the file is missing to prevent later errors
+        return pd.DataFrame({'AREA_NAME': [], 'Year': [], 'Total_Crimes': []})
 
-    MIN_YEAR = 2014
-    MAX_YEAR = 2025
 
-    # The data above has columns like:
-    # - Neighbourhood Name
-    # - Country Code
-    # - [Stuff I don't care about]
-    # - GDP for 1960
-    # - GDP for 1961
-    # - GDP for 1962
-    # - ...
-    # - GDP for 2022
-    #
-    # ...but I want this instead:
-    # - Country Name
-    # - Country Code
-    # - Year
-    # - GDP
-    #
-    # So let's pivot all those year-columns into two: Year and Crime Volume
-    gdp_df = raw_gdp_df.melt(
-        ['AREA_NAME'],
-        [str(x) for x in range(MIN_YEAR, MAX_YEAR + 1)],
-        'Year',
-        'Total_Crimes',
-    )
+    # Ensure 'Year' is an integer for accurate filtering
+    crime_df['Year'] = pd.to_numeric(crime_df['Year'], errors='coerce').astype('Int64')
+    
+    # Remove rows where Total_Crimes is NaN (if any forecast rows lack data)
+    crime_df.dropna(subset=['Total_Crimes'], inplace=True)
+    
+    return crime_df
 
-    # Convert years from string to integers
-    gdp_df['Year'] = pd.to_numeric(gdp_df['Year'])
+crime_df = get_crime_data()
 
-    return gdp_df
+# Check if data loading failed
+if crime_df.empty:
+    st.stop()
 
-gdp_df = get_gdp_data()
 
 # -----------------------------------------------------------------------------
 # Draw the actual page
 
-# Set the title that appears at the top of the page.
+# --- Title and Introduction ---
 '''
-# :earth_americas: GDP dashboard
+# :police_car: Toronto Crime Forecast Dashboard
 
-Browse GDP data from the [World Bank Open Data](https://data.worldbank.org/) website. As you'll
-notice, the data only goes to 2022 right now, and datapoints for certain years are often missing.
-But it's otherwise a great (and did I mention _free_?) source of data.
+Explore the historical crime volume data (2014-2024) and the **ARIMA model forecast for 2025** across Toronto's neighborhoods.
 '''
 
 # Add some spacing
-''
-''
+st.write('')
+st.write('')
 
-min_value = gdp_df['Year'].min()
-max_value = gdp_df['Year'].max()
 
+# --- Filters ---
+min_year = crime_df['Year'].min()
+max_year = crime_df['Year'].max()
+
+# Year Slider
 from_year, to_year = st.slider(
     'Which years are you interested in?',
-    min_value=min_value,
-    max_value=max_value,
-    value=[min_value, max_value])
-
-hood = gdp_df['AREA_NAME'].unique()
-
-if not len(countries):
-    st.warning("Select at least one neighbourhood")
-
-selected_countries = st.multiselect(
-    'Which neighbourhood would you like to view?',
-    hood)
-
-''
-''
-''
-
-# Filter the data
-filtered_gdp_df = gdp_df[
-    (gdp_df['AREA_NAME'].isin(selected_countries))
-    & (gdp_df['Year'] <= to_year)
-    & (from_year <= gdp_df['Year'])
-]
-
-st.header('Crime volume over time', divider='gray')
-
-''
-
-st.line_chart(
-    filtered_gdp_df,
-    x='Year',
-    y='Total_Crime',
-    color='AREA_NAME',
+    min_value=min_year,
+    max_value=max_year,
+    value=[min_year, max_year]
 )
 
-''
-''
+# Neighbourhood Multiselect
+hoods = sorted(crime_df['AREA_NAME'].unique())
+selected_hoods = st.multiselect(
+    'Which neighbourhood(s) would you like to view?',
+    hoods
+)
 
+# Error handling for selection
+if not selected_hoods:
+    st.warning("Please select at least one neighbourhood to view the data.")
+    st.stop() # Stop execution if no hoods are selected
 
-first_year = gdp_df[gdp_df['Year'] == from_year]
-last_year = gdp_df[gdp_df['Year'] == to_year]
+st.write('')
+st.write('')
+st.write('')
 
-st.header(f'Crime volume in {to_year}', divider='gray')
+# --- Filter Data ---
 
-''
+# Use .loc for safer and clearer DataFrame filtering
+filtered_crime_df = crime_df.loc[
+    (crime_df['AREA_NAME'].isin(selected_hoods))
+    & (crime_df['Year'] <= to_year)
+    & (crime_df['Year'] >= from_year)
+]
 
-cols = st.columns(4)
+# --- Line Chart Visualization ---
+st.header('Crime Volume Trend Over Time', divider='gray')
 
-for i, hood in enumerate(selected_countries):
-    col = cols[i % len(cols)]
+st.line_chart(
+    filtered_crime_df,
+    x='Year',
+    # CRITICAL FIX: The column name is 'Total_Crimes' (plural)
+    y='Total_Crimes', 
+    color='AREA_NAME',
+    use_container_width=True
+)
+
+st.write('')
+st.write('')
+
+# --- Metric Comparison ---
+
+st.header(f'Crime Volume Comparison ({from_year} vs. {to_year})', divider='gray')
+
+st.write(f"Comparing total crime volume per neighbourhood between {from_year} and {to_year}.")
+
+# Filter for the specific comparison years
+first_year_df = crime_df.loc[crime_df['Year'] == from_year]
+last_year_df = crime_df.loc[crime_df['Year'] == to_year]
+
+# Create columns for the metric display (up to 4 per row)
+cols = st.columns(min(4, len(selected_hoods)))
+
+for i, hood in enumerate(selected_hoods):
+    # Use the modulo operator to cycle through columns if more than 4 hoods are selected
+    col = cols[i % len(cols)] 
 
     with col:
-        first_gdp = first_year[first_year['AREA_NAME'] == hood]['Total_Crime'].iat[0] / 1000000000
-        last_gdp = last_year[last_year['AREA_NAME'] == hood]['Total_Crime'].iat[0] / 1000000000
+        # Use .loc and .iloc[0] for explicit, safe retrieval
+        
+        # Retrieval for the starting year
+        first_crime_series = first_year_df.loc[first_year_df['AREA_NAME'] == hood, 'Total_Crimes']
+        first_crime = first_crime_series.iloc[0] if not first_crime_series.empty else None
 
-        if math.isnan(first_gdp):
+        # Retrieval for the ending year
+        last_crime_series = last_year_df.loc[last_year_df['AREA_NAME'] == hood, 'Total_Crimes']
+        last_crime = last_crime_series.iloc[0] if not last_crime_series.empty else None
+
+
+        # Format the metric display
+        if last_crime is None or math.isnan(last_crime):
+            last_crime_str = 'N/A'
             growth = 'n/a'
             delta_color = 'off'
         else:
-            growth = f'{last_gdp / first_gdp:,.2f}x'
-            delta_color = 'normal'
+            last_crime_str = f'{last_crime:,.0f}'
+            
+            if first_crime is None or math.isnan(first_crime) or first_crime == 0:
+                 # If no starting data, cannot calculate growth
+                growth = 'New Data' 
+                delta_color = 'off'
+            else:
+                # Calculate percentage change for a cleaner metric
+                percent_change = ((last_crime - first_crime) / first_crime) * 100
+                growth = f'{percent_change:,.1f}%'
+                # Set delta color based on trend (Crime decrease is 'green', increase is 'red')
+                delta_color = 'inverse' if percent_change > 0 else 'normal'
 
         st.metric(
-            label=f'{hood} Crime volume',
-            value=f'{last_gdp:,.0f}B',
+            label=f'{hood}',
+            value=last_crime_str,
             delta=growth,
             delta_color=delta_color
         )
