@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import math
 from pathlib import Path
+import altair as alt # Import Altair for advanced charting
 
 # --- Configuration ---
 
@@ -41,6 +42,10 @@ def get_crime_data():
     # Remove rows where Total_Crimes is NaN (if any forecast rows lack data)
     crime_df.dropna(subset=['Total_Crimes'], inplace=True)
     
+    # Ensure the Data_Type column is created for coloring, assuming it's missing if Year is 2025
+    if 'Data_Type' not in crime_df.columns:
+        crime_df['Data_Type'] = crime_df['Year'].apply(lambda x: 'Forecast' if x == 2025 else 'Historical')
+        
     return crime_df
 
 crime_df = get_crime_data()
@@ -108,7 +113,6 @@ st.header('Crime Volume Trend Over Time', divider='gray')
 st.line_chart(
     filtered_crime_df,
     x='Year',
-    # CRITICAL FIX: The column name is 'Total_Crimes' (plural)
     y='Total_Crimes', 
     color='AREA_NAME',
     use_container_width=True
@@ -117,9 +121,45 @@ st.line_chart(
 st.write('')
 st.write('')
 
+# --- New Bar Chart Visualization (Altair) ---
+st.header('Neighbourhood Crime Volume Bar Chart', divider='gray')
+
+# Use Altair for advanced coloring in the bar chart
+if not filtered_crime_df.empty:
+    
+    # Create the Altair chart object
+    bar_chart = alt.Chart(filtered_crime_df).mark_bar().encode(
+        # X-axis: Year (Nominal type for discrete bars)
+        x=alt.X('Year:N', title='Year'), 
+        
+        # Y-axis: Total Crimes
+        y=alt.Y('Total_Crimes:Q', title='Total Crime Volume'),
+        
+        # Color: Use Data_Type to distinguish Historical vs. Forecast
+        # Set the colors explicitly for clarity
+        color=alt.Color('Data_Type:N', 
+            scale=alt.Scale(
+                domain=['Historical', 'Forecast'],
+                range=['#3366cc', '#cc4733'] # Blue for historical, Red/Orange for forecast
+            ),
+            legend=alt.Legend(title="Data Type")
+        ),
+        
+        # Column/Grouping: Separate bars by Neighbourhood
+        column=alt.Column('AREA_NAME:N', title='Neighbourhood'),
+        
+        # Tooltips: Show detailed information on hover
+        tooltip=['AREA_NAME', 'Year', 'Total_Crimes', 'Data_Type']
+    ).properties(
+        title=f'Crime Volume by Neighbourhood, {from_year:d} to {to_year:d}',
+    ).interactive() # Allow zooming/panning
+
+    st.altair_chart(bar_chart, use_container_width=True)
+
 # --- Metric Comparison ---
 
-st.header(f'Crime Volume Comparison ({from_year} vs. {to_year})', divider='gray')
+# FIX: Explicitly format the year as an integer {:d} to prevent unwanted comma separators (e.g., 2,025 -> 2025).
+st.header(f'Crime Volume Comparison ({from_year:d} vs. {to_year:d})', divider='gray')
 
 st.write(f"Comparing total crime volume per neighbourhood between {from_year} and {to_year}.")
 
