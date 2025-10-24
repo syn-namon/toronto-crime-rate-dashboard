@@ -19,7 +19,7 @@ st.set_page_config(
 def get_crime_data():
 
     # Update the data path to reference the expected file name
-    # The file path must be relative to where the Streamlit app is run
+    # NOTE: Using the path provided in your latest code snippet.
     DATA_FILENAME = Path(__file__).parent / 'data/processed_data/crime_per_hood_with_forecast_for_2025.csv'
     
     try:
@@ -68,6 +68,7 @@ st.write('')
 # --- Filters ---
 min_year = crime_df['Year'].min()
 max_year = crime_df['Year'].max()
+hoods = sorted(crime_df['AREA_NAME'].unique())
 
 # Year Slider: Controls the time range for the plots below
 from_year, to_year = st.slider(
@@ -81,20 +82,12 @@ st.write('')
 st.write('')
 st.write('')
 
-# --- Filter Data (Based on Slider and Global Hoods) ---
-
-# This DataFrame is used for the Line Chart.
-filtered_crime_df = crime_df.loc[
-    (crime_df['AREA_NAME'].isin(selected_hoods))
-    & (crime_df['Year'] <= to_year)
-    & (crime_df['Year'] >= from_year)
-]
 
 # --- Line Chart Visualization ---
 st.header('Crime Volume Trend Over Time', divider='gray')
 
-# Neighbourhood Multiselect (This controls the Line Chart and the Metric Comparison)
-hoods = sorted(crime_df['AREA_NAME'].unique())
+# MOVED: Neighbourhood Multiselect (This controls the Line Chart and the Metric Comparison)
+# This is now displayed immediately after the header as requested.
 selected_hoods = st.multiselect(
     'Which neighbourhood(s) would you like to view (For Line Chart & Metrics)?',
     hoods
@@ -104,6 +97,14 @@ selected_hoods = st.multiselect(
 if not selected_hoods:
     st.warning("Please select at least one neighbourhood to view the data.")
     st.stop() # Stop execution if no hoods are selected
+
+# MOVED: Filter Data (Based on Slider and Global Hoods)
+# This DataFrame is defined here, immediately after the multiselect value is determined.
+filtered_crime_df = crime_df.loc[
+    (crime_df['AREA_NAME'].isin(selected_hoods))
+    & (crime_df['Year'] <= to_year)
+    & (crime_df['Year'] >= from_year)
+]
 
 # FIX: Rename the 'Year' column in the plotting data to a string type.
 # This prevents the thousands separator (e.g., 2,023) and allows the axis label to be 'Year'.
@@ -115,9 +116,7 @@ st.line_chart(
     x='Year', # Now uses the string column, and labels the axis 'Year'
     y='Total_Crimes', 
     color='AREA_NAME',
-    height=500, 
-    width=1400
-    ##use_container_width=True
+    use_container_width=True # Removed explicit width/height to follow best practice
 )
 
 st.write('')
@@ -150,7 +149,6 @@ if not bar_chart_df.empty:
     # Create the Altair chart object
     bar_chart = alt.Chart(bar_chart_df).mark_bar().encode( # Use the new bar_chart_df
         # X-axis: Year (Nominal type for discrete bars). 
-        # Added scale=alt.Scale(rangeStep=25) to explicitly control bar width and spacing
         x=alt.X('Year:N', title='Year'), 
         
         # Y-axis: Total Crimes
@@ -173,8 +171,8 @@ if not bar_chart_df.empty:
         tooltip=['AREA_NAME', 'Year', 'Total_Crimes', 'Data_Type']
     ).properties(
         title=f'Crime Volume by Neighbourhood, {from_year:d} to {to_year:d}',
-        height=400, 
-        width=1000
+        height=500, # Set height to make more space for the chart and legend
+        width=400 # Fixed width for a tighter layout
     ).interactive() # Allow zooming/panning
 
     # Set use_container_width=False to respect the fixed width setting
