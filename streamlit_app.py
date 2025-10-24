@@ -115,8 +115,8 @@ st.line_chart(
     x='Year', # Now uses the string column, and labels the axis 'Year'
     y='Total_Crimes', 
     color='AREA_NAME',
-    height=450, 
-    width=1200
+    height=500, 
+    width=1400
     ##use_container_width=True
 )
 
