@@ -77,18 +77,6 @@ from_year, to_year = st.slider(
     value=[min_year, max_year]
 )
 
-# Neighbourhood Multiselect (This controls the Line Chart and the Metric Comparison)
-hoods = sorted(crime_df['AREA_NAME'].unique())
-selected_hoods = st.multiselect(
-    'Which neighbourhood(s) would you like to view (For Line Chart & Metrics)?',
-    hoods
-)
-
-# Error handling for selection
-if not selected_hoods:
-    st.warning("Please select at least one neighbourhood to view the data.")
-    st.stop() # Stop execution if no hoods are selected
-
 st.write('')
 st.write('')
 st.write('')
@@ -104,6 +92,18 @@ filtered_crime_df = crime_df.loc[
 
 # --- Line Chart Visualization ---
 st.header('Crime Volume Trend Over Time', divider='gray')
+
+# Neighbourhood Multiselect (This controls the Line Chart and the Metric Comparison)
+hoods = sorted(crime_df['AREA_NAME'].unique())
+selected_hoods = st.multiselect(
+    'Which neighbourhood(s) would you like to view (For Line Chart & Metrics)?',
+    hoods
+)
+
+# Error handling for selection
+if not selected_hoods:
+    st.warning("Please select at least one neighbourhood to view the data.")
+    st.stop() # Stop execution if no hoods are selected
 
 # FIX: Rename the 'Year' column in the plotting data to a string type.
 # This prevents the thousands separator (e.g., 2,023) and allows the axis label to be 'Year'.
