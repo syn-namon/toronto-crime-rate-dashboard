@@ -124,24 +124,23 @@ st.write('')
 # --- Bar Chart Visualization (Altair) ---
 st.header('Neighbourhood Crime Volume Bar Chart', divider='gray')
 
-# NEW: Separate filter for the bar chart
-bar_selected_hoods = st.multiselect(
-    'Which neighbourhood(s) to display in the Bar Chart?',
+# Determine the default index for the single select box (guaranteed to have at least one item by st.stop() above)
+default_hood_index = hoods.index(selected_hoods[0])
+
+# ADJUSTED: Single-select filter for the bar chart
+bar_selected_hood = st.selectbox(
+    'Which single neighbourhood to display in the Bar Chart?',
     hoods,
-    default=selected_hoods # Default to the global selection from the top filter
+    index=default_hood_index # Set index based on the calculated default
 )
 
-# NEW: Filter data specifically for the bar chart.
-if not bar_selected_hoods:
-    st.warning("Please select at least one neighbourhood for the Bar Chart.")
-    bar_chart_df = pd.DataFrame()
-else:
-    # This DataFrame respects the time slider (from_year, to_year) but uses its own hood selection.
-    bar_chart_df = crime_df.loc[
-        (crime_df['AREA_NAME'].isin(bar_selected_hoods))
-        & (crime_df['Year'] <= to_year)
-        & (crime_df['Year'] >= from_year)
-    ]
+# ADJUSTED: Filter data specifically for the bar chart.
+# This DataFrame respects the time slider (from_year, to_year) and uses the single hood selection.
+bar_chart_df = crime_df.loc[
+    (crime_df['AREA_NAME'] == bar_selected_hood) # Changed from .isin() to ==
+    & (crime_df['Year'] <= to_year)
+    & (crime_df['Year'] >= from_year)
+]
 
 # Use Altair for advanced coloring in the bar chart
 if not bar_chart_df.empty:
@@ -164,7 +163,7 @@ if not bar_chart_df.empty:
             legend=alt.Legend(title="Data Type")
         ),
         
-        # Column/Grouping: Separate bars by Neighbourhood
+        # Column/Grouping: Separate bars by Neighbourhood (retained for consistent faceting/title, even if only one)
         column=alt.Column('AREA_NAME:N', title='Neighbourhood'),
         
         # Tooltips: Show detailed information on hover
