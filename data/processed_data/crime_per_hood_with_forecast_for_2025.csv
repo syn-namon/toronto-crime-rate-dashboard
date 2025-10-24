@@ -1,0 +1,1897 @@
+Unnamed: 0,HOOD_ID,AREA_NAME,Year,Total_Crimes,Data_Type
+0.0,1,West Humber-Clairville,2014,1248.0,Historical
+1.0,1,West Humber-Clairville,2015,1114.0,Historical
+2.0,1,West Humber-Clairville,2016,1131.0,Historical
+3.0,1,West Humber-Clairville,2017,1172.0,Historical
+4.0,1,West Humber-Clairville,2018,1545.0,Historical
+5.0,1,West Humber-Clairville,2019,1391.0,Historical
+6.0,1,West Humber-Clairville,2020,1282.0,Historical
+7.0,1,West Humber-Clairville,2021,1341.0,Historical
+8.0,1,West Humber-Clairville,2022,1788.0,Historical
+9.0,1,West Humber-Clairville,2023,1863.0,Historical
+10.0,1,West Humber-Clairville,2024,1569.0,Historical
+11.0,2,Mount Olive-Silverstone-Jamestown,2014,533.0,Historical
+12.0,2,Mount Olive-Silverstone-Jamestown,2015,521.0,Historical
+13.0,2,Mount Olive-Silverstone-Jamestown,2016,582.0,Historical
+14.0,2,Mount Olive-Silverstone-Jamestown,2017,519.0,Historical
+15.0,2,Mount Olive-Silverstone-Jamestown,2018,527.0,Historical
+16.0,2,Mount Olive-Silverstone-Jamestown,2019,598.0,Historical
+17.0,2,Mount Olive-Silverstone-Jamestown,2020,477.0,Historical
+18.0,2,Mount Olive-Silverstone-Jamestown,2021,456.0,Historical
+19.0,2,Mount Olive-Silverstone-Jamestown,2022,578.0,Historical
+20.0,2,Mount Olive-Silverstone-Jamestown,2023,686.0,Historical
+21.0,2,Mount Olive-Silverstone-Jamestown,2024,619.0,Historical
+22.0,3,Thistletown-Beaumond Heights,2014,145.0,Historical
+23.0,3,Thistletown-Beaumond Heights,2015,186.0,Historical
+24.0,3,Thistletown-Beaumond Heights,2016,145.0,Historical
+25.0,3,Thistletown-Beaumond Heights,2017,146.0,Historical
+26.0,3,Thistletown-Beaumond Heights,2018,164.0,Historical
+27.0,3,Thistletown-Beaumond Heights,2019,196.0,Historical
+28.0,3,Thistletown-Beaumond Heights,2020,180.0,Historical
+29.0,3,Thistletown-Beaumond Heights,2021,163.0,Historical
+30.0,3,Thistletown-Beaumond Heights,2022,169.0,Historical
+31.0,3,Thistletown-Beaumond Heights,2023,223.0,Historical
+32.0,3,Thistletown-Beaumond Heights,2024,192.0,Historical
+33.0,4,Rexdale-Kipling,2014,154.0,Historical
+34.0,4,Rexdale-Kipling,2015,124.0,Historical
+35.0,4,Rexdale-Kipling,2016,145.0,Historical
+36.0,4,Rexdale-Kipling,2017,182.0,Historical
+37.0,4,Rexdale-Kipling,2018,220.0,Historical
+38.0,4,Rexdale-Kipling,2019,204.0,Historical
+39.0,4,Rexdale-Kipling,2020,170.0,Historical
+40.0,4,Rexdale-Kipling,2021,189.0,Historical
+41.0,4,Rexdale-Kipling,2022,216.0,Historical
+42.0,4,Rexdale-Kipling,2023,245.0,Historical
+43.0,4,Rexdale-Kipling,2024,222.0,Historical
+44.0,5,Elms-Old Rexdale,2014,109.0,Historical
+45.0,5,Elms-Old Rexdale,2015,130.0,Historical
+46.0,5,Elms-Old Rexdale,2016,146.0,Historical
+47.0,5,Elms-Old Rexdale,2017,141.0,Historical
+48.0,5,Elms-Old Rexdale,2018,134.0,Historical
+49.0,5,Elms-Old Rexdale,2019,164.0,Historical
+50.0,5,Elms-Old Rexdale,2020,150.0,Historical
+51.0,5,Elms-Old Rexdale,2021,165.0,Historical
+52.0,5,Elms-Old Rexdale,2022,188.0,Historical
+53.0,5,Elms-Old Rexdale,2023,183.0,Historical
+54.0,5,Elms-Old Rexdale,2024,225.0,Historical
+55.0,6,Kingsview Village-The Westway,2014,325.0,Historical
+56.0,6,Kingsview Village-The Westway,2015,309.0,Historical
+57.0,6,Kingsview Village-The Westway,2016,312.0,Historical
+58.0,6,Kingsview Village-The Westway,2017,268.0,Historical
+59.0,6,Kingsview Village-The Westway,2018,279.0,Historical
+60.0,6,Kingsview Village-The Westway,2019,230.0,Historical
+61.0,6,Kingsview Village-The Westway,2020,262.0,Historical
+62.0,6,Kingsview Village-The Westway,2021,322.0,Historical
+63.0,6,Kingsview Village-The Westway,2022,359.0,Historical
+64.0,6,Kingsview Village-The Westway,2023,442.0,Historical
+65.0,6,Kingsview Village-The Westway,2024,354.0,Historical
+66.0,7,Willowridge-Martingrove-Richview,2014,323.0,Historical
+67.0,7,Willowridge-Martingrove-Richview,2015,235.0,Historical
+68.0,7,Willowridge-Martingrove-Richview,2016,310.0,Historical
+69.0,7,Willowridge-Martingrove-Richview,2017,259.0,Historical
+70.0,7,Willowridge-Martingrove-Richview,2018,292.0,Historical
+71.0,7,Willowridge-Martingrove-Richview,2019,266.0,Historical
+72.0,7,Willowridge-Martingrove-Richview,2020,260.0,Historical
+73.0,7,Willowridge-Martingrove-Richview,2021,212.0,Historical
+74.0,7,Willowridge-Martingrove-Richview,2022,327.0,Historical
+75.0,7,Willowridge-Martingrove-Richview,2023,347.0,Historical
+76.0,7,Willowridge-Martingrove-Richview,2024,321.0,Historical
+77.0,8,Humber Heights-Westmount,2014,158.0,Historical
+78.0,8,Humber Heights-Westmount,2015,131.0,Historical
+79.0,8,Humber Heights-Westmount,2016,123.0,Historical
+80.0,8,Humber Heights-Westmount,2017,133.0,Historical
+81.0,8,Humber Heights-Westmount,2018,134.0,Historical
+82.0,8,Humber Heights-Westmount,2019,111.0,Historical
+83.0,8,Humber Heights-Westmount,2020,95.0,Historical
+84.0,8,Humber Heights-Westmount,2021,118.0,Historical
+85.0,8,Humber Heights-Westmount,2022,105.0,Historical
+86.0,8,Humber Heights-Westmount,2023,122.0,Historical
+87.0,8,Humber Heights-Westmount,2024,148.0,Historical
+88.0,9,Edenbridge-Humber Valley,2014,191.0,Historical
+89.0,9,Edenbridge-Humber Valley,2015,190.0,Historical
+90.0,9,Edenbridge-Humber Valley,2016,164.0,Historical
+91.0,9,Edenbridge-Humber Valley,2017,144.0,Historical
+92.0,9,Edenbridge-Humber Valley,2018,123.0,Historical
+93.0,9,Edenbridge-Humber Valley,2019,159.0,Historical
+94.0,9,Edenbridge-Humber Valley,2020,137.0,Historical
+95.0,9,Edenbridge-Humber Valley,2021,116.0,Historical
+96.0,9,Edenbridge-Humber Valley,2022,196.0,Historical
+97.0,9,Edenbridge-Humber Valley,2023,276.0,Historical
+98.0,9,Edenbridge-Humber Valley,2024,212.0,Historical
+99.0,10,Princess-Rosethorn,2014,194.0,Historical
+100.0,10,Princess-Rosethorn,2015,148.0,Historical
+101.0,10,Princess-Rosethorn,2016,173.0,Historical
+102.0,10,Princess-Rosethorn,2017,111.0,Historical
+103.0,10,Princess-Rosethorn,2018,118.0,Historical
+104.0,10,Princess-Rosethorn,2019,148.0,Historical
+105.0,10,Princess-Rosethorn,2020,104.0,Historical
+106.0,10,Princess-Rosethorn,2021,102.0,Historical
+107.0,10,Princess-Rosethorn,2022,136.0,Historical
+108.0,10,Princess-Rosethorn,2023,247.0,Historical
+109.0,10,Princess-Rosethorn,2024,165.0,Historical
+110.0,11,Eringate-Centennial-West Deane,2014,221.0,Historical
+111.0,11,Eringate-Centennial-West Deane,2015,188.0,Historical
+112.0,11,Eringate-Centennial-West Deane,2016,185.0,Historical
+113.0,11,Eringate-Centennial-West Deane,2017,159.0,Historical
+114.0,11,Eringate-Centennial-West Deane,2018,158.0,Historical
+115.0,11,Eringate-Centennial-West Deane,2019,165.0,Historical
+116.0,11,Eringate-Centennial-West Deane,2020,174.0,Historical
+117.0,11,Eringate-Centennial-West Deane,2021,160.0,Historical
+118.0,11,Eringate-Centennial-West Deane,2022,245.0,Historical
+119.0,11,Eringate-Centennial-West Deane,2023,304.0,Historical
+120.0,11,Eringate-Centennial-West Deane,2024,287.0,Historical
+121.0,12,Markland Wood,2014,185.0,Historical
+122.0,12,Markland Wood,2015,97.0,Historical
+123.0,12,Markland Wood,2016,115.0,Historical
+124.0,12,Markland Wood,2017,90.0,Historical
+125.0,12,Markland Wood,2018,102.0,Historical
+126.0,12,Markland Wood,2019,93.0,Historical
+127.0,12,Markland Wood,2020,124.0,Historical
+128.0,12,Markland Wood,2021,88.0,Historical
+129.0,12,Markland Wood,2022,134.0,Historical
+130.0,12,Markland Wood,2023,135.0,Historical
+131.0,12,Markland Wood,2024,147.0,Historical
+132.0,13,Etobicoke West Mall,2014,128.0,Historical
+133.0,13,Etobicoke West Mall,2015,134.0,Historical
+134.0,13,Etobicoke West Mall,2016,101.0,Historical
+135.0,13,Etobicoke West Mall,2017,96.0,Historical
+136.0,13,Etobicoke West Mall,2018,105.0,Historical
+137.0,13,Etobicoke West Mall,2019,113.0,Historical
+138.0,13,Etobicoke West Mall,2020,140.0,Historical
+139.0,13,Etobicoke West Mall,2021,103.0,Historical
+140.0,13,Etobicoke West Mall,2022,170.0,Historical
+141.0,13,Etobicoke West Mall,2023,202.0,Historical
+142.0,13,Etobicoke West Mall,2024,154.0,Historical
+143.0,15,Kingsway South,2014,124.0,Historical
+144.0,15,Kingsway South,2015,148.0,Historical
+145.0,15,Kingsway South,2016,114.0,Historical
+146.0,15,Kingsway South,2017,137.0,Historical
+147.0,15,Kingsway South,2018,118.0,Historical
+148.0,15,Kingsway South,2019,134.0,Historical
+149.0,15,Kingsway South,2020,82.0,Historical
+150.0,15,Kingsway South,2021,117.0,Historical
+151.0,15,Kingsway South,2022,142.0,Historical
+152.0,15,Kingsway South,2023,244.0,Historical
+153.0,15,Kingsway South,2024,157.0,Historical
+154.0,16,Stonegate-Queensway,2014,327.0,Historical
+155.0,16,Stonegate-Queensway,2015,248.0,Historical
+156.0,16,Stonegate-Queensway,2016,219.0,Historical
+157.0,16,Stonegate-Queensway,2017,277.0,Historical
+158.0,16,Stonegate-Queensway,2018,282.0,Historical
+159.0,16,Stonegate-Queensway,2019,295.0,Historical
+160.0,16,Stonegate-Queensway,2020,324.0,Historical
+161.0,16,Stonegate-Queensway,2021,267.0,Historical
+162.0,16,Stonegate-Queensway,2022,419.0,Historical
+163.0,16,Stonegate-Queensway,2023,496.0,Historical
+164.0,16,Stonegate-Queensway,2024,400.0,Historical
+165.0,18,New Toronto,2014,168.0,Historical
+166.0,18,New Toronto,2015,235.0,Historical
+167.0,18,New Toronto,2016,214.0,Historical
+168.0,18,New Toronto,2017,199.0,Historical
+169.0,18,New Toronto,2018,233.0,Historical
+170.0,18,New Toronto,2019,227.0,Historical
+171.0,18,New Toronto,2020,227.0,Historical
+172.0,18,New Toronto,2021,204.0,Historical
+173.0,18,New Toronto,2022,322.0,Historical
+174.0,18,New Toronto,2023,311.0,Historical
+175.0,18,New Toronto,2024,280.0,Historical
+176.0,19,Long Branch,2014,168.0,Historical
+177.0,19,Long Branch,2015,195.0,Historical
+178.0,19,Long Branch,2016,136.0,Historical
+179.0,19,Long Branch,2017,182.0,Historical
+180.0,19,Long Branch,2018,171.0,Historical
+181.0,19,Long Branch,2019,185.0,Historical
+182.0,19,Long Branch,2020,196.0,Historical
+183.0,19,Long Branch,2021,209.0,Historical
+184.0,19,Long Branch,2022,229.0,Historical
+185.0,19,Long Branch,2023,203.0,Historical
+186.0,19,Long Branch,2024,174.0,Historical
+187.0,20,Alderwood,2014,130.0,Historical
+188.0,20,Alderwood,2015,149.0,Historical
+189.0,20,Alderwood,2016,150.0,Historical
+190.0,20,Alderwood,2017,94.0,Historical
+191.0,20,Alderwood,2018,121.0,Historical
+192.0,20,Alderwood,2019,149.0,Historical
+193.0,20,Alderwood,2020,180.0,Historical
+194.0,20,Alderwood,2021,128.0,Historical
+195.0,20,Alderwood,2022,216.0,Historical
+196.0,20,Alderwood,2023,148.0,Historical
+197.0,20,Alderwood,2024,170.0,Historical
+198.0,21,Humber Summit,2014,335.0,Historical
+199.0,21,Humber Summit,2015,302.0,Historical
+200.0,21,Humber Summit,2016,367.0,Historical
+201.0,21,Humber Summit,2017,391.0,Historical
+202.0,21,Humber Summit,2018,433.0,Historical
+203.0,21,Humber Summit,2019,468.0,Historical
+204.0,21,Humber Summit,2020,385.0,Historical
+205.0,21,Humber Summit,2021,428.0,Historical
+206.0,21,Humber Summit,2022,522.0,Historical
+207.0,21,Humber Summit,2023,553.0,Historical
+208.0,21,Humber Summit,2024,408.0,Historical
+209.0,22,Humbermede,2014,246.0,Historical
+210.0,22,Humbermede,2015,267.0,Historical
+211.0,22,Humbermede,2016,238.0,Historical
+212.0,22,Humbermede,2017,302.0,Historical
+213.0,22,Humbermede,2018,288.0,Historical
+214.0,22,Humbermede,2019,356.0,Historical
+215.0,22,Humbermede,2020,286.0,Historical
+216.0,22,Humbermede,2021,285.0,Historical
+217.0,22,Humbermede,2022,342.0,Historical
+218.0,22,Humbermede,2023,414.0,Historical
+219.0,22,Humbermede,2024,398.0,Historical
+220.0,23,Pelmo Park-Humberlea,2014,173.0,Historical
+221.0,23,Pelmo Park-Humberlea,2015,158.0,Historical
+222.0,23,Pelmo Park-Humberlea,2016,168.0,Historical
+223.0,23,Pelmo Park-Humberlea,2017,195.0,Historical
+224.0,23,Pelmo Park-Humberlea,2018,244.0,Historical
+225.0,23,Pelmo Park-Humberlea,2019,225.0,Historical
+226.0,23,Pelmo Park-Humberlea,2020,204.0,Historical
+227.0,23,Pelmo Park-Humberlea,2021,197.0,Historical
+228.0,23,Pelmo Park-Humberlea,2022,273.0,Historical
+229.0,23,Pelmo Park-Humberlea,2023,281.0,Historical
+230.0,23,Pelmo Park-Humberlea,2024,259.0,Historical
+231.0,24,Black Creek,2014,411.0,Historical
+232.0,24,Black Creek,2015,394.0,Historical
+233.0,24,Black Creek,2016,483.0,Historical
+234.0,24,Black Creek,2017,438.0,Historical
+235.0,24,Black Creek,2018,412.0,Historical
+236.0,24,Black Creek,2019,467.0,Historical
+237.0,24,Black Creek,2020,531.0,Historical
+238.0,24,Black Creek,2021,416.0,Historical
+239.0,24,Black Creek,2022,436.0,Historical
+240.0,24,Black Creek,2023,450.0,Historical
+241.0,24,Black Creek,2024,469.0,Historical
+242.0,25,Glenfield-Jane Heights,2014,511.0,Historical
+243.0,25,Glenfield-Jane Heights,2015,523.0,Historical
+244.0,25,Glenfield-Jane Heights,2016,592.0,Historical
+245.0,25,Glenfield-Jane Heights,2017,516.0,Historical
+246.0,25,Glenfield-Jane Heights,2018,569.0,Historical
+247.0,25,Glenfield-Jane Heights,2019,630.0,Historical
+248.0,25,Glenfield-Jane Heights,2020,697.0,Historical
+249.0,25,Glenfield-Jane Heights,2021,612.0,Historical
+250.0,25,Glenfield-Jane Heights,2022,598.0,Historical
+251.0,25,Glenfield-Jane Heights,2023,618.0,Historical
+252.0,25,Glenfield-Jane Heights,2024,632.0,Historical
+253.0,27,York University Heights,2014,742.0,Historical
+254.0,27,York University Heights,2015,819.0,Historical
+255.0,27,York University Heights,2016,851.0,Historical
+256.0,27,York University Heights,2017,867.0,Historical
+257.0,27,York University Heights,2018,915.0,Historical
+258.0,27,York University Heights,2019,940.0,Historical
+259.0,27,York University Heights,2020,1046.0,Historical
+260.0,27,York University Heights,2021,930.0,Historical
+261.0,27,York University Heights,2022,1085.0,Historical
+262.0,27,York University Heights,2023,1232.0,Historical
+263.0,27,York University Heights,2024,1099.0,Historical
+264.0,28,Rustic,2014,130.0,Historical
+265.0,28,Rustic,2015,152.0,Historical
+266.0,28,Rustic,2016,146.0,Historical
+267.0,28,Rustic,2017,120.0,Historical
+268.0,28,Rustic,2018,163.0,Historical
+269.0,28,Rustic,2019,167.0,Historical
+270.0,28,Rustic,2020,161.0,Historical
+271.0,28,Rustic,2021,128.0,Historical
+272.0,28,Rustic,2022,165.0,Historical
+273.0,28,Rustic,2023,165.0,Historical
+274.0,28,Rustic,2024,203.0,Historical
+275.0,29,Maple Leaf,2014,65.0,Historical
+276.0,29,Maple Leaf,2015,90.0,Historical
+277.0,29,Maple Leaf,2016,98.0,Historical
+278.0,29,Maple Leaf,2017,51.0,Historical
+279.0,29,Maple Leaf,2018,99.0,Historical
+280.0,29,Maple Leaf,2019,94.0,Historical
+281.0,29,Maple Leaf,2020,96.0,Historical
+282.0,29,Maple Leaf,2021,82.0,Historical
+283.0,29,Maple Leaf,2022,152.0,Historical
+284.0,29,Maple Leaf,2023,139.0,Historical
+285.0,29,Maple Leaf,2024,127.0,Historical
+286.0,30,Brookhaven-Amesbury,2014,214.0,Historical
+287.0,30,Brookhaven-Amesbury,2015,265.0,Historical
+288.0,30,Brookhaven-Amesbury,2016,233.0,Historical
+289.0,30,Brookhaven-Amesbury,2017,244.0,Historical
+290.0,30,Brookhaven-Amesbury,2018,263.0,Historical
+291.0,30,Brookhaven-Amesbury,2019,279.0,Historical
+292.0,30,Brookhaven-Amesbury,2020,265.0,Historical
+293.0,30,Brookhaven-Amesbury,2021,278.0,Historical
+294.0,30,Brookhaven-Amesbury,2022,312.0,Historical
+295.0,30,Brookhaven-Amesbury,2023,377.0,Historical
+296.0,30,Brookhaven-Amesbury,2024,330.0,Historical
+297.0,31,Yorkdale-Glen Park,2014,392.0,Historical
+298.0,31,Yorkdale-Glen Park,2015,378.0,Historical
+299.0,31,Yorkdale-Glen Park,2016,408.0,Historical
+300.0,31,Yorkdale-Glen Park,2017,424.0,Historical
+301.0,31,Yorkdale-Glen Park,2018,494.0,Historical
+302.0,31,Yorkdale-Glen Park,2019,551.0,Historical
+303.0,31,Yorkdale-Glen Park,2020,556.0,Historical
+304.0,31,Yorkdale-Glen Park,2021,510.0,Historical
+305.0,31,Yorkdale-Glen Park,2022,662.0,Historical
+306.0,31,Yorkdale-Glen Park,2023,807.0,Historical
+307.0,31,Yorkdale-Glen Park,2024,634.0,Historical
+308.0,32,Englemount-Lawrence,2014,224.0,Historical
+309.0,32,Englemount-Lawrence,2015,246.0,Historical
+310.0,32,Englemount-Lawrence,2016,324.0,Historical
+311.0,32,Englemount-Lawrence,2017,282.0,Historical
+312.0,32,Englemount-Lawrence,2018,282.0,Historical
+313.0,32,Englemount-Lawrence,2019,275.0,Historical
+314.0,32,Englemount-Lawrence,2020,311.0,Historical
+315.0,32,Englemount-Lawrence,2021,244.0,Historical
+316.0,32,Englemount-Lawrence,2022,231.0,Historical
+317.0,32,Englemount-Lawrence,2023,336.0,Historical
+318.0,32,Englemount-Lawrence,2024,254.0,Historical
+319.0,33,Clanton Park,2014,257.0,Historical
+320.0,33,Clanton Park,2015,205.0,Historical
+321.0,33,Clanton Park,2016,198.0,Historical
+322.0,33,Clanton Park,2017,232.0,Historical
+323.0,33,Clanton Park,2018,270.0,Historical
+324.0,33,Clanton Park,2019,269.0,Historical
+325.0,33,Clanton Park,2020,264.0,Historical
+326.0,33,Clanton Park,2021,327.0,Historical
+327.0,33,Clanton Park,2022,424.0,Historical
+328.0,33,Clanton Park,2023,468.0,Historical
+329.0,33,Clanton Park,2024,384.0,Historical
+330.0,34,Bathurst Manor,2014,171.0,Historical
+331.0,34,Bathurst Manor,2015,142.0,Historical
+332.0,34,Bathurst Manor,2016,183.0,Historical
+333.0,34,Bathurst Manor,2017,175.0,Historical
+334.0,34,Bathurst Manor,2018,201.0,Historical
+335.0,34,Bathurst Manor,2019,164.0,Historical
+336.0,34,Bathurst Manor,2020,219.0,Historical
+337.0,34,Bathurst Manor,2021,167.0,Historical
+338.0,34,Bathurst Manor,2022,287.0,Historical
+339.0,34,Bathurst Manor,2023,286.0,Historical
+340.0,34,Bathurst Manor,2024,280.0,Historical
+341.0,35,Westminster-Branson,2014,273.0,Historical
+342.0,35,Westminster-Branson,2015,254.0,Historical
+343.0,35,Westminster-Branson,2016,231.0,Historical
+344.0,35,Westminster-Branson,2017,230.0,Historical
+345.0,35,Westminster-Branson,2018,260.0,Historical
+346.0,35,Westminster-Branson,2019,250.0,Historical
+347.0,35,Westminster-Branson,2020,264.0,Historical
+348.0,35,Westminster-Branson,2021,268.0,Historical
+349.0,35,Westminster-Branson,2022,369.0,Historical
+350.0,35,Westminster-Branson,2023,318.0,Historical
+351.0,35,Westminster-Branson,2024,293.0,Historical
+352.0,36,Newtonbrook West,2014,359.0,Historical
+353.0,36,Newtonbrook West,2015,283.0,Historical
+354.0,36,Newtonbrook West,2016,343.0,Historical
+355.0,36,Newtonbrook West,2017,368.0,Historical
+356.0,36,Newtonbrook West,2018,390.0,Historical
+357.0,36,Newtonbrook West,2019,403.0,Historical
+358.0,36,Newtonbrook West,2020,425.0,Historical
+359.0,36,Newtonbrook West,2021,457.0,Historical
+360.0,36,Newtonbrook West,2022,602.0,Historical
+361.0,36,Newtonbrook West,2023,687.0,Historical
+362.0,36,Newtonbrook West,2024,534.0,Historical
+363.0,37,Willowdale West,2014,143.0,Historical
+364.0,37,Willowdale West,2015,165.0,Historical
+365.0,37,Willowdale West,2016,233.0,Historical
+366.0,37,Willowdale West,2017,207.0,Historical
+367.0,37,Willowdale West,2018,214.0,Historical
+368.0,37,Willowdale West,2019,242.0,Historical
+369.0,37,Willowdale West,2020,269.0,Historical
+370.0,37,Willowdale West,2021,251.0,Historical
+371.0,37,Willowdale West,2022,268.0,Historical
+372.0,37,Willowdale West,2023,325.0,Historical
+373.0,37,Willowdale West,2024,246.0,Historical
+374.0,38,Lansing-Westgate,2014,134.0,Historical
+375.0,38,Lansing-Westgate,2015,172.0,Historical
+376.0,38,Lansing-Westgate,2016,193.0,Historical
+377.0,38,Lansing-Westgate,2017,216.0,Historical
+378.0,38,Lansing-Westgate,2018,226.0,Historical
+379.0,38,Lansing-Westgate,2019,232.0,Historical
+380.0,38,Lansing-Westgate,2020,299.0,Historical
+381.0,38,Lansing-Westgate,2021,243.0,Historical
+382.0,38,Lansing-Westgate,2022,250.0,Historical
+383.0,38,Lansing-Westgate,2023,364.0,Historical
+384.0,38,Lansing-Westgate,2024,264.0,Historical
+385.0,39,Bedford Park-Nortown,2014,287.0,Historical
+386.0,39,Bedford Park-Nortown,2015,231.0,Historical
+387.0,39,Bedford Park-Nortown,2016,256.0,Historical
+388.0,39,Bedford Park-Nortown,2017,348.0,Historical
+389.0,39,Bedford Park-Nortown,2018,303.0,Historical
+390.0,39,Bedford Park-Nortown,2019,385.0,Historical
+391.0,39,Bedford Park-Nortown,2020,344.0,Historical
+392.0,39,Bedford Park-Nortown,2021,248.0,Historical
+393.0,39,Bedford Park-Nortown,2022,357.0,Historical
+394.0,39,Bedford Park-Nortown,2023,504.0,Historical
+395.0,39,Bedford Park-Nortown,2024,362.0,Historical
+396.0,40,StAndrew-Windfields,2014,249.0,Historical
+397.0,40,StAndrew-Windfields,2015,219.0,Historical
+398.0,40,StAndrew-Windfields,2016,195.0,Historical
+399.0,40,StAndrew-Windfields,2017,199.0,Historical
+400.0,40,StAndrew-Windfields,2018,214.0,Historical
+401.0,40,StAndrew-Windfields,2019,266.0,Historical
+402.0,40,StAndrew-Windfields,2020,226.0,Historical
+403.0,40,StAndrew-Windfields,2021,237.0,Historical
+404.0,40,StAndrew-Windfields,2022,280.0,Historical
+405.0,40,StAndrew-Windfields,2023,365.0,Historical
+406.0,40,StAndrew-Windfields,2024,350.0,Historical
+407.0,41,Bridle Path-Sunnybrook-York Mills,2014,94.0,Historical
+408.0,41,Bridle Path-Sunnybrook-York Mills,2015,101.0,Historical
+409.0,41,Bridle Path-Sunnybrook-York Mills,2016,103.0,Historical
+410.0,41,Bridle Path-Sunnybrook-York Mills,2017,121.0,Historical
+411.0,41,Bridle Path-Sunnybrook-York Mills,2018,121.0,Historical
+412.0,41,Bridle Path-Sunnybrook-York Mills,2019,158.0,Historical
+413.0,41,Bridle Path-Sunnybrook-York Mills,2020,156.0,Historical
+414.0,41,Bridle Path-Sunnybrook-York Mills,2021,120.0,Historical
+415.0,41,Bridle Path-Sunnybrook-York Mills,2022,169.0,Historical
+416.0,41,Bridle Path-Sunnybrook-York Mills,2023,269.0,Historical
+417.0,41,Bridle Path-Sunnybrook-York Mills,2024,191.0,Historical
+418.0,42,Banbury-Don Mills,2014,237.0,Historical
+419.0,42,Banbury-Don Mills,2015,276.0,Historical
+420.0,42,Banbury-Don Mills,2016,232.0,Historical
+421.0,42,Banbury-Don Mills,2017,272.0,Historical
+422.0,42,Banbury-Don Mills,2018,278.0,Historical
+423.0,42,Banbury-Don Mills,2019,286.0,Historical
+424.0,42,Banbury-Don Mills,2020,241.0,Historical
+425.0,42,Banbury-Don Mills,2021,210.0,Historical
+426.0,42,Banbury-Don Mills,2022,305.0,Historical
+427.0,42,Banbury-Don Mills,2023,505.0,Historical
+428.0,42,Banbury-Don Mills,2024,429.0,Historical
+429.0,43,Victoria Village,2014,217.0,Historical
+430.0,43,Victoria Village,2015,246.0,Historical
+431.0,43,Victoria Village,2016,223.0,Historical
+432.0,43,Victoria Village,2017,183.0,Historical
+433.0,43,Victoria Village,2018,217.0,Historical
+434.0,43,Victoria Village,2019,258.0,Historical
+435.0,43,Victoria Village,2020,229.0,Historical
+436.0,43,Victoria Village,2021,240.0,Historical
+437.0,43,Victoria Village,2022,269.0,Historical
+438.0,43,Victoria Village,2023,313.0,Historical
+439.0,43,Victoria Village,2024,282.0,Historical
+440.0,44,Flemingdon Park,2014,357.0,Historical
+441.0,44,Flemingdon Park,2015,230.0,Historical
+442.0,44,Flemingdon Park,2016,260.0,Historical
+443.0,44,Flemingdon Park,2017,199.0,Historical
+444.0,44,Flemingdon Park,2018,220.0,Historical
+445.0,44,Flemingdon Park,2019,227.0,Historical
+446.0,44,Flemingdon Park,2020,215.0,Historical
+447.0,44,Flemingdon Park,2021,229.0,Historical
+448.0,44,Flemingdon Park,2022,230.0,Historical
+449.0,44,Flemingdon Park,2023,305.0,Historical
+450.0,44,Flemingdon Park,2024,319.0,Historical
+451.0,46,Pleasant View,2014,105.0,Historical
+452.0,46,Pleasant View,2015,134.0,Historical
+453.0,46,Pleasant View,2016,123.0,Historical
+454.0,46,Pleasant View,2017,111.0,Historical
+455.0,46,Pleasant View,2018,132.0,Historical
+456.0,46,Pleasant View,2019,150.0,Historical
+457.0,46,Pleasant View,2020,159.0,Historical
+458.0,46,Pleasant View,2021,153.0,Historical
+459.0,46,Pleasant View,2022,145.0,Historical
+460.0,46,Pleasant View,2023,181.0,Historical
+461.0,46,Pleasant View,2024,147.0,Historical
+462.0,47,Don Valley Village,2014,415.0,Historical
+463.0,47,Don Valley Village,2015,365.0,Historical
+464.0,47,Don Valley Village,2016,332.0,Historical
+465.0,47,Don Valley Village,2017,255.0,Historical
+466.0,47,Don Valley Village,2018,317.0,Historical
+467.0,47,Don Valley Village,2019,323.0,Historical
+468.0,47,Don Valley Village,2020,255.0,Historical
+469.0,47,Don Valley Village,2021,300.0,Historical
+470.0,47,Don Valley Village,2022,343.0,Historical
+471.0,47,Don Valley Village,2023,533.0,Historical
+472.0,47,Don Valley Village,2024,481.0,Historical
+473.0,48,Hillcrest Village,2014,174.0,Historical
+474.0,48,Hillcrest Village,2015,184.0,Historical
+475.0,48,Hillcrest Village,2016,142.0,Historical
+476.0,48,Hillcrest Village,2017,167.0,Historical
+477.0,48,Hillcrest Village,2018,211.0,Historical
+478.0,48,Hillcrest Village,2019,222.0,Historical
+479.0,48,Hillcrest Village,2020,147.0,Historical
+480.0,48,Hillcrest Village,2021,180.0,Historical
+481.0,48,Hillcrest Village,2022,177.0,Historical
+482.0,48,Hillcrest Village,2023,247.0,Historical
+483.0,48,Hillcrest Village,2024,215.0,Historical
+484.0,49,Bayview Woods-Steeles,2014,108.0,Historical
+485.0,49,Bayview Woods-Steeles,2015,101.0,Historical
+486.0,49,Bayview Woods-Steeles,2016,106.0,Historical
+487.0,49,Bayview Woods-Steeles,2017,109.0,Historical
+488.0,49,Bayview Woods-Steeles,2018,119.0,Historical
+489.0,49,Bayview Woods-Steeles,2019,120.0,Historical
+490.0,49,Bayview Woods-Steeles,2020,123.0,Historical
+491.0,49,Bayview Woods-Steeles,2021,94.0,Historical
+492.0,49,Bayview Woods-Steeles,2022,88.0,Historical
+493.0,49,Bayview Woods-Steeles,2023,165.0,Historical
+494.0,49,Bayview Woods-Steeles,2024,145.0,Historical
+495.0,50,Newtonbrook East,2014,172.0,Historical
+496.0,50,Newtonbrook East,2015,200.0,Historical
+497.0,50,Newtonbrook East,2016,209.0,Historical
+498.0,50,Newtonbrook East,2017,235.0,Historical
+499.0,50,Newtonbrook East,2018,223.0,Historical
+500.0,50,Newtonbrook East,2019,264.0,Historical
+501.0,50,Newtonbrook East,2020,224.0,Historical
+502.0,50,Newtonbrook East,2021,237.0,Historical
+503.0,50,Newtonbrook East,2022,271.0,Historical
+504.0,50,Newtonbrook East,2023,288.0,Historical
+505.0,50,Newtonbrook East,2024,286.0,Historical
+506.0,52,Bayview Village,2014,259.0,Historical
+507.0,52,Bayview Village,2015,203.0,Historical
+508.0,52,Bayview Village,2016,208.0,Historical
+509.0,52,Bayview Village,2017,176.0,Historical
+510.0,52,Bayview Village,2018,179.0,Historical
+511.0,52,Bayview Village,2019,233.0,Historical
+512.0,52,Bayview Village,2020,267.0,Historical
+513.0,52,Bayview Village,2021,214.0,Historical
+514.0,52,Bayview Village,2022,306.0,Historical
+515.0,52,Bayview Village,2023,464.0,Historical
+516.0,52,Bayview Village,2024,348.0,Historical
+517.0,53,Henry Farm,2014,144.0,Historical
+518.0,53,Henry Farm,2015,144.0,Historical
+519.0,53,Henry Farm,2016,127.0,Historical
+520.0,53,Henry Farm,2017,159.0,Historical
+521.0,53,Henry Farm,2018,149.0,Historical
+522.0,53,Henry Farm,2019,251.0,Historical
+523.0,53,Henry Farm,2020,203.0,Historical
+524.0,53,Henry Farm,2021,283.0,Historical
+525.0,53,Henry Farm,2022,270.0,Historical
+526.0,53,Henry Farm,2023,319.0,Historical
+527.0,53,Henry Farm,2024,215.0,Historical
+528.0,54,OConnor-Parkview,2014,373.0,Historical
+529.0,54,OConnor-Parkview,2015,327.0,Historical
+530.0,54,OConnor-Parkview,2016,293.0,Historical
+531.0,54,OConnor-Parkview,2017,244.0,Historical
+532.0,54,OConnor-Parkview,2018,283.0,Historical
+533.0,54,OConnor-Parkview,2019,307.0,Historical
+534.0,54,OConnor-Parkview,2020,273.0,Historical
+535.0,54,OConnor-Parkview,2021,285.0,Historical
+536.0,54,OConnor-Parkview,2022,319.0,Historical
+537.0,54,OConnor-Parkview,2023,294.0,Historical
+538.0,54,OConnor-Parkview,2024,282.0,Historical
+539.0,55,Thorncliffe Park,2014,196.0,Historical
+540.0,55,Thorncliffe Park,2015,181.0,Historical
+541.0,55,Thorncliffe Park,2016,189.0,Historical
+542.0,55,Thorncliffe Park,2017,186.0,Historical
+543.0,55,Thorncliffe Park,2018,172.0,Historical
+544.0,55,Thorncliffe Park,2019,225.0,Historical
+545.0,55,Thorncliffe Park,2020,218.0,Historical
+546.0,55,Thorncliffe Park,2021,238.0,Historical
+547.0,55,Thorncliffe Park,2022,306.0,Historical
+548.0,55,Thorncliffe Park,2023,300.0,Historical
+549.0,55,Thorncliffe Park,2024,325.0,Historical
+550.0,56,Leaside-Bennington,2014,201.0,Historical
+551.0,56,Leaside-Bennington,2015,152.0,Historical
+552.0,56,Leaside-Bennington,2016,147.0,Historical
+553.0,56,Leaside-Bennington,2017,150.0,Historical
+554.0,56,Leaside-Bennington,2018,175.0,Historical
+555.0,56,Leaside-Bennington,2019,188.0,Historical
+556.0,56,Leaside-Bennington,2020,219.0,Historical
+557.0,56,Leaside-Bennington,2021,250.0,Historical
+558.0,56,Leaside-Bennington,2022,236.0,Historical
+559.0,56,Leaside-Bennington,2023,280.0,Historical
+560.0,56,Leaside-Bennington,2024,170.0,Historical
+561.0,57,Broadview North,2014,93.0,Historical
+562.0,57,Broadview North,2015,122.0,Historical
+563.0,57,Broadview North,2016,123.0,Historical
+564.0,57,Broadview North,2017,117.0,Historical
+565.0,57,Broadview North,2018,97.0,Historical
+566.0,57,Broadview North,2019,142.0,Historical
+567.0,57,Broadview North,2020,170.0,Historical
+568.0,57,Broadview North,2021,129.0,Historical
+569.0,57,Broadview North,2022,157.0,Historical
+570.0,57,Broadview North,2023,165.0,Historical
+571.0,57,Broadview North,2024,168.0,Historical
+572.0,58,Old East York,2014,138.0,Historical
+573.0,58,Old East York,2015,112.0,Historical
+574.0,58,Old East York,2016,112.0,Historical
+575.0,58,Old East York,2017,97.0,Historical
+576.0,58,Old East York,2018,131.0,Historical
+577.0,58,Old East York,2019,116.0,Historical
+578.0,58,Old East York,2020,99.0,Historical
+579.0,58,Old East York,2021,101.0,Historical
+580.0,58,Old East York,2022,156.0,Historical
+581.0,58,Old East York,2023,144.0,Historical
+582.0,58,Old East York,2024,150.0,Historical
+583.0,59,Danforth East York,2014,175.0,Historical
+584.0,59,Danforth East York,2015,169.0,Historical
+585.0,59,Danforth East York,2016,167.0,Historical
+586.0,59,Danforth East York,2017,149.0,Historical
+587.0,59,Danforth East York,2018,173.0,Historical
+588.0,59,Danforth East York,2019,230.0,Historical
+589.0,59,Danforth East York,2020,201.0,Historical
+590.0,59,Danforth East York,2021,187.0,Historical
+591.0,59,Danforth East York,2022,216.0,Historical
+592.0,59,Danforth East York,2023,220.0,Historical
+593.0,59,Danforth East York,2024,194.0,Historical
+594.0,60,Woodbine-Lumsden,2014,150.0,Historical
+595.0,60,Woodbine-Lumsden,2015,114.0,Historical
+596.0,60,Woodbine-Lumsden,2016,105.0,Historical
+597.0,60,Woodbine-Lumsden,2017,72.0,Historical
+598.0,60,Woodbine-Lumsden,2018,107.0,Historical
+599.0,60,Woodbine-Lumsden,2019,104.0,Historical
+600.0,60,Woodbine-Lumsden,2020,99.0,Historical
+601.0,60,Woodbine-Lumsden,2021,90.0,Historical
+602.0,60,Woodbine-Lumsden,2022,91.0,Historical
+603.0,60,Woodbine-Lumsden,2023,83.0,Historical
+604.0,60,Woodbine-Lumsden,2024,114.0,Historical
+605.0,61,Taylor-Massey,2014,233.0,Historical
+606.0,61,Taylor-Massey,2015,272.0,Historical
+607.0,61,Taylor-Massey,2016,214.0,Historical
+608.0,61,Taylor-Massey,2017,198.0,Historical
+609.0,61,Taylor-Massey,2018,245.0,Historical
+610.0,61,Taylor-Massey,2019,258.0,Historical
+611.0,61,Taylor-Massey,2020,268.0,Historical
+612.0,61,Taylor-Massey,2021,245.0,Historical
+613.0,61,Taylor-Massey,2022,242.0,Historical
+614.0,61,Taylor-Massey,2023,270.0,Historical
+615.0,61,Taylor-Massey,2024,246.0,Historical
+616.0,62,East End-Danforth,2014,440.0,Historical
+617.0,62,East End-Danforth,2015,503.0,Historical
+618.0,62,East End-Danforth,2016,456.0,Historical
+619.0,62,East End-Danforth,2017,418.0,Historical
+620.0,62,East End-Danforth,2018,479.0,Historical
+621.0,62,East End-Danforth,2019,404.0,Historical
+622.0,62,East End-Danforth,2020,428.0,Historical
+623.0,62,East End-Danforth,2021,455.0,Historical
+624.0,62,East End-Danforth,2022,495.0,Historical
+625.0,62,East End-Danforth,2023,430.0,Historical
+626.0,62,East End-Danforth,2024,422.0,Historical
+627.0,63,The Beaches,2014,285.0,Historical
+628.0,63,The Beaches,2015,302.0,Historical
+629.0,63,The Beaches,2016,336.0,Historical
+630.0,63,The Beaches,2017,310.0,Historical
+631.0,63,The Beaches,2018,326.0,Historical
+632.0,63,The Beaches,2019,277.0,Historical
+633.0,63,The Beaches,2020,297.0,Historical
+634.0,63,The Beaches,2021,255.0,Historical
+635.0,63,The Beaches,2022,313.0,Historical
+636.0,63,The Beaches,2023,321.0,Historical
+637.0,63,The Beaches,2024,290.0,Historical
+638.0,64,Woodbine Corridor,2014,182.0,Historical
+639.0,64,Woodbine Corridor,2015,178.0,Historical
+640.0,64,Woodbine Corridor,2016,218.0,Historical
+641.0,64,Woodbine Corridor,2017,191.0,Historical
+642.0,64,Woodbine Corridor,2018,254.0,Historical
+643.0,64,Woodbine Corridor,2019,247.0,Historical
+644.0,64,Woodbine Corridor,2020,212.0,Historical
+645.0,64,Woodbine Corridor,2021,180.0,Historical
+646.0,64,Woodbine Corridor,2022,203.0,Historical
+647.0,64,Woodbine Corridor,2023,211.0,Historical
+648.0,64,Woodbine Corridor,2024,184.0,Historical
+649.0,65,Greenwood-Coxwell,2014,268.0,Historical
+650.0,65,Greenwood-Coxwell,2015,300.0,Historical
+651.0,65,Greenwood-Coxwell,2016,291.0,Historical
+652.0,65,Greenwood-Coxwell,2017,215.0,Historical
+653.0,65,Greenwood-Coxwell,2018,296.0,Historical
+654.0,65,Greenwood-Coxwell,2019,360.0,Historical
+655.0,65,Greenwood-Coxwell,2020,369.0,Historical
+656.0,65,Greenwood-Coxwell,2021,308.0,Historical
+657.0,65,Greenwood-Coxwell,2022,284.0,Historical
+658.0,65,Greenwood-Coxwell,2023,244.0,Historical
+659.0,65,Greenwood-Coxwell,2024,298.0,Historical
+660.0,66,Danforth,2014,219.0,Historical
+661.0,66,Danforth,2015,259.0,Historical
+662.0,66,Danforth,2016,198.0,Historical
+663.0,66,Danforth,2017,185.0,Historical
+664.0,66,Danforth,2018,258.0,Historical
+665.0,66,Danforth,2019,259.0,Historical
+666.0,66,Danforth,2020,232.0,Historical
+667.0,66,Danforth,2021,299.0,Historical
+668.0,66,Danforth,2022,313.0,Historical
+669.0,66,Danforth,2023,255.0,Historical
+670.0,66,Danforth,2024,238.0,Historical
+671.0,67,Playter Estates-Danforth,2014,171.0,Historical
+672.0,67,Playter Estates-Danforth,2015,142.0,Historical
+673.0,67,Playter Estates-Danforth,2016,147.0,Historical
+674.0,67,Playter Estates-Danforth,2017,147.0,Historical
+675.0,67,Playter Estates-Danforth,2018,136.0,Historical
+676.0,67,Playter Estates-Danforth,2019,224.0,Historical
+677.0,67,Playter Estates-Danforth,2020,210.0,Historical
+678.0,67,Playter Estates-Danforth,2021,181.0,Historical
+679.0,67,Playter Estates-Danforth,2022,236.0,Historical
+680.0,67,Playter Estates-Danforth,2023,224.0,Historical
+681.0,67,Playter Estates-Danforth,2024,232.0,Historical
+682.0,68,North Riverdale,2014,199.0,Historical
+683.0,68,North Riverdale,2015,224.0,Historical
+684.0,68,North Riverdale,2016,220.0,Historical
+685.0,68,North Riverdale,2017,190.0,Historical
+686.0,68,North Riverdale,2018,202.0,Historical
+687.0,68,North Riverdale,2019,255.0,Historical
+688.0,68,North Riverdale,2020,171.0,Historical
+689.0,68,North Riverdale,2021,158.0,Historical
+690.0,68,North Riverdale,2022,201.0,Historical
+691.0,68,North Riverdale,2023,187.0,Historical
+692.0,68,North Riverdale,2024,164.0,Historical
+693.0,69,Blake-Jones,2014,149.0,Historical
+694.0,69,Blake-Jones,2015,141.0,Historical
+695.0,69,Blake-Jones,2016,140.0,Historical
+696.0,69,Blake-Jones,2017,135.0,Historical
+697.0,69,Blake-Jones,2018,131.0,Historical
+698.0,69,Blake-Jones,2019,149.0,Historical
+699.0,69,Blake-Jones,2020,148.0,Historical
+700.0,69,Blake-Jones,2021,127.0,Historical
+701.0,69,Blake-Jones,2022,114.0,Historical
+702.0,69,Blake-Jones,2023,162.0,Historical
+703.0,69,Blake-Jones,2024,136.0,Historical
+704.0,70,South Riverdale,2014,674.0,Historical
+705.0,70,South Riverdale,2015,622.0,Historical
+706.0,70,South Riverdale,2016,760.0,Historical
+707.0,70,South Riverdale,2017,705.0,Historical
+708.0,70,South Riverdale,2018,784.0,Historical
+709.0,70,South Riverdale,2019,712.0,Historical
+710.0,70,South Riverdale,2020,707.0,Historical
+711.0,70,South Riverdale,2021,681.0,Historical
+712.0,70,South Riverdale,2022,678.0,Historical
+713.0,70,South Riverdale,2023,756.0,Historical
+714.0,70,South Riverdale,2024,719.0,Historical
+715.0,71,Cabbagetown-South StJames Town,2014,325.0,Historical
+716.0,71,Cabbagetown-South StJames Town,2015,389.0,Historical
+717.0,71,Cabbagetown-South StJames Town,2016,400.0,Historical
+718.0,71,Cabbagetown-South StJames Town,2017,370.0,Historical
+719.0,71,Cabbagetown-South StJames Town,2018,414.0,Historical
+720.0,71,Cabbagetown-South StJames Town,2019,439.0,Historical
+721.0,71,Cabbagetown-South StJames Town,2020,345.0,Historical
+722.0,71,Cabbagetown-South StJames Town,2021,308.0,Historical
+723.0,71,Cabbagetown-South StJames Town,2022,335.0,Historical
+724.0,71,Cabbagetown-South StJames Town,2023,303.0,Historical
+725.0,71,Cabbagetown-South StJames Town,2024,301.0,Historical
+726.0,72,Regent Park,2014,270.0,Historical
+727.0,72,Regent Park,2015,271.0,Historical
+728.0,72,Regent Park,2016,275.0,Historical
+729.0,72,Regent Park,2017,277.0,Historical
+730.0,72,Regent Park,2018,344.0,Historical
+731.0,72,Regent Park,2019,405.0,Historical
+732.0,72,Regent Park,2020,289.0,Historical
+733.0,72,Regent Park,2021,287.0,Historical
+734.0,72,Regent Park,2022,225.0,Historical
+735.0,72,Regent Park,2023,305.0,Historical
+736.0,72,Regent Park,2024,282.0,Historical
+737.0,73,Moss Park,2014,941.0,Historical
+738.0,73,Moss Park,2015,929.0,Historical
+739.0,73,Moss Park,2016,992.0,Historical
+740.0,73,Moss Park,2017,1030.0,Historical
+741.0,73,Moss Park,2018,1310.0,Historical
+742.0,73,Moss Park,2019,1399.0,Historical
+743.0,73,Moss Park,2020,1420.0,Historical
+744.0,73,Moss Park,2021,1160.0,Historical
+745.0,73,Moss Park,2022,1012.0,Historical
+746.0,73,Moss Park,2023,1104.0,Historical
+747.0,73,Moss Park,2024,1025.0,Historical
+748.0,74,North StJames Town,2014,427.0,Historical
+749.0,74,North StJames Town,2015,432.0,Historical
+750.0,74,North StJames Town,2016,453.0,Historical
+751.0,74,North StJames Town,2017,386.0,Historical
+752.0,74,North StJames Town,2018,424.0,Historical
+753.0,74,North StJames Town,2019,515.0,Historical
+754.0,74,North StJames Town,2020,487.0,Historical
+755.0,74,North StJames Town,2021,417.0,Historical
+756.0,74,North StJames Town,2022,410.0,Historical
+757.0,74,North StJames Town,2023,459.0,Historical
+758.0,74,North StJames Town,2024,490.0,Historical
+759.0,78,Kensington-Chinatown,2014,1230.0,Historical
+760.0,78,Kensington-Chinatown,2015,1259.0,Historical
+761.0,78,Kensington-Chinatown,2016,1262.0,Historical
+762.0,78,Kensington-Chinatown,2017,1273.0,Historical
+763.0,78,Kensington-Chinatown,2018,1269.0,Historical
+764.0,78,Kensington-Chinatown,2019,1292.0,Historical
+765.0,78,Kensington-Chinatown,2020,1019.0,Historical
+766.0,78,Kensington-Chinatown,2021,794.0,Historical
+767.0,78,Kensington-Chinatown,2022,819.0,Historical
+768.0,78,Kensington-Chinatown,2023,996.0,Historical
+769.0,78,Kensington-Chinatown,2024,1207.0,Historical
+770.0,79,University,2014,477.0,Historical
+771.0,79,University,2015,439.0,Historical
+772.0,79,University,2016,444.0,Historical
+773.0,79,University,2017,526.0,Historical
+774.0,79,University,2018,454.0,Historical
+775.0,79,University,2019,387.0,Historical
+776.0,79,University,2020,289.0,Historical
+777.0,79,University,2021,235.0,Historical
+778.0,79,University,2022,334.0,Historical
+779.0,79,University,2023,313.0,Historical
+780.0,79,University,2024,343.0,Historical
+781.0,80,Palmerston-Little Italy,2014,278.0,Historical
+782.0,80,Palmerston-Little Italy,2015,323.0,Historical
+783.0,80,Palmerston-Little Italy,2016,251.0,Historical
+784.0,80,Palmerston-Little Italy,2017,281.0,Historical
+785.0,80,Palmerston-Little Italy,2018,319.0,Historical
+786.0,80,Palmerston-Little Italy,2019,287.0,Historical
+787.0,80,Palmerston-Little Italy,2020,236.0,Historical
+788.0,80,Palmerston-Little Italy,2021,174.0,Historical
+789.0,80,Palmerston-Little Italy,2022,233.0,Historical
+790.0,80,Palmerston-Little Italy,2023,222.0,Historical
+791.0,80,Palmerston-Little Italy,2024,203.0,Historical
+792.0,81,Trinity-Bellwoods,2014,380.0,Historical
+793.0,81,Trinity-Bellwoods,2015,312.0,Historical
+794.0,81,Trinity-Bellwoods,2016,357.0,Historical
+795.0,81,Trinity-Bellwoods,2017,383.0,Historical
+796.0,81,Trinity-Bellwoods,2018,353.0,Historical
+797.0,81,Trinity-Bellwoods,2019,390.0,Historical
+798.0,81,Trinity-Bellwoods,2020,350.0,Historical
+799.0,81,Trinity-Bellwoods,2021,296.0,Historical
+800.0,81,Trinity-Bellwoods,2022,350.0,Historical
+801.0,81,Trinity-Bellwoods,2023,357.0,Historical
+802.0,81,Trinity-Bellwoods,2024,410.0,Historical
+803.0,83,Dufferin Grove,2014,226.0,Historical
+804.0,83,Dufferin Grove,2015,222.0,Historical
+805.0,83,Dufferin Grove,2016,219.0,Historical
+806.0,83,Dufferin Grove,2017,199.0,Historical
+807.0,83,Dufferin Grove,2018,262.0,Historical
+808.0,83,Dufferin Grove,2019,242.0,Historical
+809.0,83,Dufferin Grove,2020,254.0,Historical
+810.0,83,Dufferin Grove,2021,187.0,Historical
+811.0,83,Dufferin Grove,2022,206.0,Historical
+812.0,83,Dufferin Grove,2023,331.0,Historical
+813.0,83,Dufferin Grove,2024,359.0,Historical
+814.0,84,Little Portugal,2014,208.0,Historical
+815.0,84,Little Portugal,2015,209.0,Historical
+816.0,84,Little Portugal,2016,245.0,Historical
+817.0,84,Little Portugal,2017,286.0,Historical
+818.0,84,Little Portugal,2018,266.0,Historical
+819.0,84,Little Portugal,2019,276.0,Historical
+820.0,84,Little Portugal,2020,291.0,Historical
+821.0,84,Little Portugal,2021,237.0,Historical
+822.0,84,Little Portugal,2022,231.0,Historical
+823.0,84,Little Portugal,2023,269.0,Historical
+824.0,84,Little Portugal,2024,330.0,Historical
+825.0,85,South Parkdale,2014,365.0,Historical
+826.0,85,South Parkdale,2015,386.0,Historical
+827.0,85,South Parkdale,2016,435.0,Historical
+828.0,85,South Parkdale,2017,459.0,Historical
+829.0,85,South Parkdale,2018,436.0,Historical
+830.0,85,South Parkdale,2019,536.0,Historical
+831.0,85,South Parkdale,2020,465.0,Historical
+832.0,85,South Parkdale,2021,448.0,Historical
+833.0,85,South Parkdale,2022,456.0,Historical
+834.0,85,South Parkdale,2023,534.0,Historical
+835.0,85,South Parkdale,2024,478.0,Historical
+836.0,86,Roncesvalles,2014,231.0,Historical
+837.0,86,Roncesvalles,2015,267.0,Historical
+838.0,86,Roncesvalles,2016,301.0,Historical
+839.0,86,Roncesvalles,2017,383.0,Historical
+840.0,86,Roncesvalles,2018,355.0,Historical
+841.0,86,Roncesvalles,2019,381.0,Historical
+842.0,86,Roncesvalles,2020,333.0,Historical
+843.0,86,Roncesvalles,2021,283.0,Historical
+844.0,86,Roncesvalles,2022,280.0,Historical
+845.0,86,Roncesvalles,2023,301.0,Historical
+846.0,86,Roncesvalles,2024,333.0,Historical
+847.0,87,High Park-Swansea,2014,238.0,Historical
+848.0,87,High Park-Swansea,2015,295.0,Historical
+849.0,87,High Park-Swansea,2016,257.0,Historical
+850.0,87,High Park-Swansea,2017,256.0,Historical
+851.0,87,High Park-Swansea,2018,222.0,Historical
+852.0,87,High Park-Swansea,2019,303.0,Historical
+853.0,87,High Park-Swansea,2020,258.0,Historical
+854.0,87,High Park-Swansea,2021,207.0,Historical
+855.0,87,High Park-Swansea,2022,292.0,Historical
+856.0,87,High Park-Swansea,2023,293.0,Historical
+857.0,87,High Park-Swansea,2024,300.0,Historical
+858.0,88,High Park North,2014,212.0,Historical
+859.0,88,High Park North,2015,288.0,Historical
+860.0,88,High Park North,2016,238.0,Historical
+861.0,88,High Park North,2017,324.0,Historical
+862.0,88,High Park North,2018,307.0,Historical
+863.0,88,High Park North,2019,314.0,Historical
+864.0,88,High Park North,2020,267.0,Historical
+865.0,88,High Park North,2021,235.0,Historical
+866.0,88,High Park North,2022,321.0,Historical
+867.0,88,High Park North,2023,368.0,Historical
+868.0,88,High Park North,2024,374.0,Historical
+869.0,89,Runnymede-Bloor West Village,2014,136.0,Historical
+870.0,89,Runnymede-Bloor West Village,2015,152.0,Historical
+871.0,89,Runnymede-Bloor West Village,2016,120.0,Historical
+872.0,89,Runnymede-Bloor West Village,2017,137.0,Historical
+873.0,89,Runnymede-Bloor West Village,2018,131.0,Historical
+874.0,89,Runnymede-Bloor West Village,2019,169.0,Historical
+875.0,89,Runnymede-Bloor West Village,2020,111.0,Historical
+876.0,89,Runnymede-Bloor West Village,2021,105.0,Historical
+877.0,89,Runnymede-Bloor West Village,2022,134.0,Historical
+878.0,89,Runnymede-Bloor West Village,2023,193.0,Historical
+879.0,89,Runnymede-Bloor West Village,2024,138.0,Historical
+880.0,90,Junction Area,2014,243.0,Historical
+881.0,90,Junction Area,2015,238.0,Historical
+882.0,90,Junction Area,2016,239.0,Historical
+883.0,90,Junction Area,2017,256.0,Historical
+884.0,90,Junction Area,2018,358.0,Historical
+885.0,90,Junction Area,2019,269.0,Historical
+886.0,90,Junction Area,2020,281.0,Historical
+887.0,90,Junction Area,2021,253.0,Historical
+888.0,90,Junction Area,2022,304.0,Historical
+889.0,90,Junction Area,2023,332.0,Historical
+890.0,90,Junction Area,2024,403.0,Historical
+891.0,91,Weston-Pelham Park,2014,196.0,Historical
+892.0,91,Weston-Pelham Park,2015,194.0,Historical
+893.0,91,Weston-Pelham Park,2016,168.0,Historical
+894.0,91,Weston-Pelham Park,2017,123.0,Historical
+895.0,91,Weston-Pelham Park,2018,183.0,Historical
+896.0,91,Weston-Pelham Park,2019,197.0,Historical
+897.0,91,Weston-Pelham Park,2020,204.0,Historical
+898.0,91,Weston-Pelham Park,2021,161.0,Historical
+899.0,91,Weston-Pelham Park,2022,181.0,Historical
+900.0,91,Weston-Pelham Park,2023,217.0,Historical
+901.0,91,Weston-Pelham Park,2024,238.0,Historical
+902.0,92,Corso Italia-Davenport,2014,181.0,Historical
+903.0,92,Corso Italia-Davenport,2015,188.0,Historical
+904.0,92,Corso Italia-Davenport,2016,163.0,Historical
+905.0,92,Corso Italia-Davenport,2017,210.0,Historical
+906.0,92,Corso Italia-Davenport,2018,203.0,Historical
+907.0,92,Corso Italia-Davenport,2019,243.0,Historical
+908.0,92,Corso Italia-Davenport,2020,226.0,Historical
+909.0,92,Corso Italia-Davenport,2021,214.0,Historical
+910.0,92,Corso Italia-Davenport,2022,219.0,Historical
+911.0,92,Corso Italia-Davenport,2023,319.0,Historical
+912.0,92,Corso Italia-Davenport,2024,257.0,Historical
+913.0,94,Wychwood,2014,133.0,Historical
+914.0,94,Wychwood,2015,187.0,Historical
+915.0,94,Wychwood,2016,204.0,Historical
+916.0,94,Wychwood,2017,172.0,Historical
+917.0,94,Wychwood,2018,205.0,Historical
+918.0,94,Wychwood,2019,200.0,Historical
+919.0,94,Wychwood,2020,232.0,Historical
+920.0,94,Wychwood,2021,136.0,Historical
+921.0,94,Wychwood,2022,198.0,Historical
+922.0,94,Wychwood,2023,225.0,Historical
+923.0,94,Wychwood,2024,214.0,Historical
+924.0,95,Annex,2014,710.0,Historical
+925.0,95,Annex,2015,744.0,Historical
+926.0,95,Annex,2016,801.0,Historical
+927.0,95,Annex,2017,860.0,Historical
+928.0,95,Annex,2018,927.0,Historical
+929.0,95,Annex,2019,957.0,Historical
+930.0,95,Annex,2020,902.0,Historical
+931.0,95,Annex,2021,812.0,Historical
+932.0,95,Annex,2022,874.0,Historical
+933.0,95,Annex,2023,935.0,Historical
+934.0,95,Annex,2024,1011.0,Historical
+935.0,96,Casa Loma,2014,115.0,Historical
+936.0,96,Casa Loma,2015,116.0,Historical
+937.0,96,Casa Loma,2016,114.0,Historical
+938.0,96,Casa Loma,2017,112.0,Historical
+939.0,96,Casa Loma,2018,133.0,Historical
+940.0,96,Casa Loma,2019,154.0,Historical
+941.0,96,Casa Loma,2020,184.0,Historical
+942.0,96,Casa Loma,2021,134.0,Historical
+943.0,96,Casa Loma,2022,148.0,Historical
+944.0,96,Casa Loma,2023,186.0,Historical
+945.0,96,Casa Loma,2024,168.0,Historical
+946.0,97,Yonge-StClair,2014,76.0,Historical
+947.0,97,Yonge-StClair,2015,83.0,Historical
+948.0,97,Yonge-StClair,2016,86.0,Historical
+949.0,97,Yonge-StClair,2017,66.0,Historical
+950.0,97,Yonge-StClair,2018,99.0,Historical
+951.0,97,Yonge-StClair,2019,123.0,Historical
+952.0,97,Yonge-StClair,2020,111.0,Historical
+953.0,97,Yonge-StClair,2021,137.0,Historical
+954.0,97,Yonge-StClair,2022,151.0,Historical
+955.0,97,Yonge-StClair,2023,147.0,Historical
+956.0,97,Yonge-StClair,2024,132.0,Historical
+957.0,98,Rosedale-Moore Park,2014,344.0,Historical
+958.0,98,Rosedale-Moore Park,2015,308.0,Historical
+959.0,98,Rosedale-Moore Park,2016,312.0,Historical
+960.0,98,Rosedale-Moore Park,2017,344.0,Historical
+961.0,98,Rosedale-Moore Park,2018,410.0,Historical
+962.0,98,Rosedale-Moore Park,2019,453.0,Historical
+963.0,98,Rosedale-Moore Park,2020,475.0,Historical
+964.0,98,Rosedale-Moore Park,2021,421.0,Historical
+965.0,98,Rosedale-Moore Park,2022,559.0,Historical
+966.0,98,Rosedale-Moore Park,2023,655.0,Historical
+967.0,98,Rosedale-Moore Park,2024,586.0,Historical
+968.0,99,Mount Pleasant East,2014,101.0,Historical
+969.0,99,Mount Pleasant East,2015,125.0,Historical
+970.0,99,Mount Pleasant East,2016,80.0,Historical
+971.0,99,Mount Pleasant East,2017,126.0,Historical
+972.0,99,Mount Pleasant East,2018,160.0,Historical
+973.0,99,Mount Pleasant East,2019,215.0,Historical
+974.0,99,Mount Pleasant East,2020,206.0,Historical
+975.0,99,Mount Pleasant East,2021,181.0,Historical
+976.0,99,Mount Pleasant East,2022,213.0,Historical
+977.0,99,Mount Pleasant East,2023,203.0,Historical
+978.0,99,Mount Pleasant East,2024,187.0,Historical
+979.0,100,Yonge-Eglinton,2014,148.0,Historical
+980.0,100,Yonge-Eglinton,2015,141.0,Historical
+981.0,100,Yonge-Eglinton,2016,132.0,Historical
+982.0,100,Yonge-Eglinton,2017,151.0,Historical
+983.0,100,Yonge-Eglinton,2018,164.0,Historical
+984.0,100,Yonge-Eglinton,2019,226.0,Historical
+985.0,100,Yonge-Eglinton,2020,238.0,Historical
+986.0,100,Yonge-Eglinton,2021,165.0,Historical
+987.0,100,Yonge-Eglinton,2022,249.0,Historical
+988.0,100,Yonge-Eglinton,2023,240.0,Historical
+989.0,100,Yonge-Eglinton,2024,320.0,Historical
+990.0,101,Forest Hill South,2014,116.0,Historical
+991.0,101,Forest Hill South,2015,70.0,Historical
+992.0,101,Forest Hill South,2016,77.0,Historical
+993.0,101,Forest Hill South,2017,145.0,Historical
+994.0,101,Forest Hill South,2018,128.0,Historical
+995.0,101,Forest Hill South,2019,139.0,Historical
+996.0,101,Forest Hill South,2020,177.0,Historical
+997.0,101,Forest Hill South,2021,169.0,Historical
+998.0,101,Forest Hill South,2022,184.0,Historical
+999.0,101,Forest Hill South,2023,244.0,Historical
+1000.0,101,Forest Hill South,2024,158.0,Historical
+1001.0,102,Forest Hill North,2014,148.0,Historical
+1002.0,102,Forest Hill North,2015,158.0,Historical
+1003.0,102,Forest Hill North,2016,95.0,Historical
+1004.0,102,Forest Hill North,2017,159.0,Historical
+1005.0,102,Forest Hill North,2018,164.0,Historical
+1006.0,102,Forest Hill North,2019,184.0,Historical
+1007.0,102,Forest Hill North,2020,237.0,Historical
+1008.0,102,Forest Hill North,2021,139.0,Historical
+1009.0,102,Forest Hill North,2022,133.0,Historical
+1010.0,102,Forest Hill North,2023,212.0,Historical
+1011.0,102,Forest Hill North,2024,138.0,Historical
+1012.0,103,Lawrence Park South,2014,162.0,Historical
+1013.0,103,Lawrence Park South,2015,145.0,Historical
+1014.0,103,Lawrence Park South,2016,122.0,Historical
+1015.0,103,Lawrence Park South,2017,143.0,Historical
+1016.0,103,Lawrence Park South,2018,129.0,Historical
+1017.0,103,Lawrence Park South,2019,198.0,Historical
+1018.0,103,Lawrence Park South,2020,218.0,Historical
+1019.0,103,Lawrence Park South,2021,171.0,Historical
+1020.0,103,Lawrence Park South,2022,227.0,Historical
+1021.0,103,Lawrence Park South,2023,255.0,Historical
+1022.0,103,Lawrence Park South,2024,188.0,Historical
+1023.0,105,Lawrence Park North,2014,162.0,Historical
+1024.0,105,Lawrence Park North,2015,139.0,Historical
+1025.0,105,Lawrence Park North,2016,109.0,Historical
+1026.0,105,Lawrence Park North,2017,162.0,Historical
+1027.0,105,Lawrence Park North,2018,133.0,Historical
+1028.0,105,Lawrence Park North,2019,168.0,Historical
+1029.0,105,Lawrence Park North,2020,164.0,Historical
+1030.0,105,Lawrence Park North,2021,165.0,Historical
+1031.0,105,Lawrence Park North,2022,199.0,Historical
+1032.0,105,Lawrence Park North,2023,199.0,Historical
+1033.0,105,Lawrence Park North,2024,186.0,Historical
+1034.0,106,Humewood-Cedarvale,2014,192.0,Historical
+1035.0,106,Humewood-Cedarvale,2015,216.0,Historical
+1036.0,106,Humewood-Cedarvale,2016,165.0,Historical
+1037.0,106,Humewood-Cedarvale,2017,163.0,Historical
+1038.0,106,Humewood-Cedarvale,2018,188.0,Historical
+1039.0,106,Humewood-Cedarvale,2019,164.0,Historical
+1040.0,106,Humewood-Cedarvale,2020,220.0,Historical
+1041.0,106,Humewood-Cedarvale,2021,162.0,Historical
+1042.0,106,Humewood-Cedarvale,2022,196.0,Historical
+1043.0,106,Humewood-Cedarvale,2023,188.0,Historical
+1044.0,106,Humewood-Cedarvale,2024,167.0,Historical
+1045.0,107,Oakwood Village,2014,226.0,Historical
+1046.0,107,Oakwood Village,2015,256.0,Historical
+1047.0,107,Oakwood Village,2016,270.0,Historical
+1048.0,107,Oakwood Village,2017,275.0,Historical
+1049.0,107,Oakwood Village,2018,244.0,Historical
+1050.0,107,Oakwood Village,2019,362.0,Historical
+1051.0,107,Oakwood Village,2020,266.0,Historical
+1052.0,107,Oakwood Village,2021,250.0,Historical
+1053.0,107,Oakwood Village,2022,346.0,Historical
+1054.0,107,Oakwood Village,2023,275.0,Historical
+1055.0,107,Oakwood Village,2024,300.0,Historical
+1056.0,108,Briar Hill-Belgravia,2014,229.0,Historical
+1057.0,108,Briar Hill-Belgravia,2015,200.0,Historical
+1058.0,108,Briar Hill-Belgravia,2016,203.0,Historical
+1059.0,108,Briar Hill-Belgravia,2017,191.0,Historical
+1060.0,108,Briar Hill-Belgravia,2018,241.0,Historical
+1061.0,108,Briar Hill-Belgravia,2019,238.0,Historical
+1062.0,108,Briar Hill-Belgravia,2020,267.0,Historical
+1063.0,108,Briar Hill-Belgravia,2021,220.0,Historical
+1064.0,108,Briar Hill-Belgravia,2022,260.0,Historical
+1065.0,108,Briar Hill-Belgravia,2023,256.0,Historical
+1066.0,108,Briar Hill-Belgravia,2024,297.0,Historical
+1067.0,109,Caledonia-Fairbank,2014,127.0,Historical
+1068.0,109,Caledonia-Fairbank,2015,100.0,Historical
+1069.0,109,Caledonia-Fairbank,2016,110.0,Historical
+1070.0,109,Caledonia-Fairbank,2017,117.0,Historical
+1071.0,109,Caledonia-Fairbank,2018,112.0,Historical
+1072.0,109,Caledonia-Fairbank,2019,125.0,Historical
+1073.0,109,Caledonia-Fairbank,2020,102.0,Historical
+1074.0,109,Caledonia-Fairbank,2021,114.0,Historical
+1075.0,109,Caledonia-Fairbank,2022,121.0,Historical
+1076.0,109,Caledonia-Fairbank,2023,137.0,Historical
+1077.0,109,Caledonia-Fairbank,2024,134.0,Historical
+1078.0,110,Keelesdale-Eglinton West,2014,163.0,Historical
+1079.0,110,Keelesdale-Eglinton West,2015,134.0,Historical
+1080.0,110,Keelesdale-Eglinton West,2016,115.0,Historical
+1081.0,110,Keelesdale-Eglinton West,2017,157.0,Historical
+1082.0,110,Keelesdale-Eglinton West,2018,178.0,Historical
+1083.0,110,Keelesdale-Eglinton West,2019,158.0,Historical
+1084.0,110,Keelesdale-Eglinton West,2020,177.0,Historical
+1085.0,110,Keelesdale-Eglinton West,2021,174.0,Historical
+1086.0,110,Keelesdale-Eglinton West,2022,197.0,Historical
+1087.0,110,Keelesdale-Eglinton West,2023,222.0,Historical
+1088.0,110,Keelesdale-Eglinton West,2024,191.0,Historical
+1089.0,111,Rockcliffe-Smythe,2014,328.0,Historical
+1090.0,111,Rockcliffe-Smythe,2015,330.0,Historical
+1091.0,111,Rockcliffe-Smythe,2016,331.0,Historical
+1092.0,111,Rockcliffe-Smythe,2017,326.0,Historical
+1093.0,111,Rockcliffe-Smythe,2018,327.0,Historical
+1094.0,111,Rockcliffe-Smythe,2019,331.0,Historical
+1095.0,111,Rockcliffe-Smythe,2020,317.0,Historical
+1096.0,111,Rockcliffe-Smythe,2021,308.0,Historical
+1097.0,111,Rockcliffe-Smythe,2022,373.0,Historical
+1098.0,111,Rockcliffe-Smythe,2023,452.0,Historical
+1099.0,111,Rockcliffe-Smythe,2024,404.0,Historical
+1100.0,112,Beechborough-Greenbrook,2014,128.0,Historical
+1101.0,112,Beechborough-Greenbrook,2015,142.0,Historical
+1102.0,112,Beechborough-Greenbrook,2016,123.0,Historical
+1103.0,112,Beechborough-Greenbrook,2017,123.0,Historical
+1104.0,112,Beechborough-Greenbrook,2018,115.0,Historical
+1105.0,112,Beechborough-Greenbrook,2019,123.0,Historical
+1106.0,112,Beechborough-Greenbrook,2020,103.0,Historical
+1107.0,112,Beechborough-Greenbrook,2021,116.0,Historical
+1108.0,112,Beechborough-Greenbrook,2022,136.0,Historical
+1109.0,112,Beechborough-Greenbrook,2023,177.0,Historical
+1110.0,112,Beechborough-Greenbrook,2024,196.0,Historical
+1111.0,113,Weston,2014,388.0,Historical
+1112.0,113,Weston,2015,361.0,Historical
+1113.0,113,Weston,2016,428.0,Historical
+1114.0,113,Weston,2017,453.0,Historical
+1115.0,113,Weston,2018,399.0,Historical
+1116.0,113,Weston,2019,415.0,Historical
+1117.0,113,Weston,2020,449.0,Historical
+1118.0,113,Weston,2021,410.0,Historical
+1119.0,113,Weston,2022,527.0,Historical
+1120.0,113,Weston,2023,527.0,Historical
+1121.0,113,Weston,2024,559.0,Historical
+1122.0,114,Lambton Baby Point,2014,82.0,Historical
+1123.0,114,Lambton Baby Point,2015,97.0,Historical
+1124.0,114,Lambton Baby Point,2016,57.0,Historical
+1125.0,114,Lambton Baby Point,2017,54.0,Historical
+1126.0,114,Lambton Baby Point,2018,84.0,Historical
+1127.0,114,Lambton Baby Point,2019,85.0,Historical
+1128.0,114,Lambton Baby Point,2020,84.0,Historical
+1129.0,114,Lambton Baby Point,2021,65.0,Historical
+1130.0,114,Lambton Baby Point,2022,104.0,Historical
+1131.0,114,Lambton Baby Point,2023,85.0,Historical
+1132.0,114,Lambton Baby Point,2024,86.0,Historical
+1133.0,115,Mount Dennis,2014,201.0,Historical
+1134.0,115,Mount Dennis,2015,206.0,Historical
+1135.0,115,Mount Dennis,2016,220.0,Historical
+1136.0,115,Mount Dennis,2017,198.0,Historical
+1137.0,115,Mount Dennis,2018,175.0,Historical
+1138.0,115,Mount Dennis,2019,188.0,Historical
+1139.0,115,Mount Dennis,2020,184.0,Historical
+1140.0,115,Mount Dennis,2021,195.0,Historical
+1141.0,115,Mount Dennis,2022,238.0,Historical
+1142.0,115,Mount Dennis,2023,261.0,Historical
+1143.0,115,Mount Dennis,2024,270.0,Historical
+1144.0,116,Steeles,2014,165.0,Historical
+1145.0,116,Steeles,2015,152.0,Historical
+1146.0,116,Steeles,2016,162.0,Historical
+1147.0,116,Steeles,2017,164.0,Historical
+1148.0,116,Steeles,2018,173.0,Historical
+1149.0,116,Steeles,2019,194.0,Historical
+1150.0,116,Steeles,2020,122.0,Historical
+1151.0,116,Steeles,2021,148.0,Historical
+1152.0,116,Steeles,2022,171.0,Historical
+1153.0,116,Steeles,2023,174.0,Historical
+1154.0,116,Steeles,2024,154.0,Historical
+1155.0,118,Tam OShanter-Sullivan,2014,273.0,Historical
+1156.0,118,Tam OShanter-Sullivan,2015,281.0,Historical
+1157.0,118,Tam OShanter-Sullivan,2016,264.0,Historical
+1158.0,118,Tam OShanter-Sullivan,2017,312.0,Historical
+1159.0,118,Tam OShanter-Sullivan,2018,318.0,Historical
+1160.0,118,Tam OShanter-Sullivan,2019,302.0,Historical
+1161.0,118,Tam OShanter-Sullivan,2020,318.0,Historical
+1162.0,118,Tam OShanter-Sullivan,2021,279.0,Historical
+1163.0,118,Tam OShanter-Sullivan,2022,375.0,Historical
+1164.0,118,Tam OShanter-Sullivan,2023,394.0,Historical
+1165.0,118,Tam OShanter-Sullivan,2024,342.0,Historical
+1166.0,119,WexfordMaryvale,2014,587.0,Historical
+1167.0,119,WexfordMaryvale,2015,569.0,Historical
+1168.0,119,WexfordMaryvale,2016,502.0,Historical
+1169.0,119,WexfordMaryvale,2017,555.0,Historical
+1170.0,119,WexfordMaryvale,2018,554.0,Historical
+1171.0,119,WexfordMaryvale,2019,575.0,Historical
+1172.0,119,WexfordMaryvale,2020,527.0,Historical
+1173.0,119,WexfordMaryvale,2021,577.0,Historical
+1174.0,119,WexfordMaryvale,2022,638.0,Historical
+1175.0,119,WexfordMaryvale,2023,743.0,Historical
+1176.0,119,WexfordMaryvale,2024,841.0,Historical
+1177.0,120,Clairlea-Birchmount,2014,607.0,Historical
+1178.0,120,Clairlea-Birchmount,2015,587.0,Historical
+1179.0,120,Clairlea-Birchmount,2016,555.0,Historical
+1180.0,120,Clairlea-Birchmount,2017,571.0,Historical
+1181.0,120,Clairlea-Birchmount,2018,600.0,Historical
+1182.0,120,Clairlea-Birchmount,2019,616.0,Historical
+1183.0,120,Clairlea-Birchmount,2020,456.0,Historical
+1184.0,120,Clairlea-Birchmount,2021,515.0,Historical
+1185.0,120,Clairlea-Birchmount,2022,560.0,Historical
+1186.0,120,Clairlea-Birchmount,2023,591.0,Historical
+1187.0,120,Clairlea-Birchmount,2024,688.0,Historical
+1188.0,121,Oakridge,2014,354.0,Historical
+1189.0,121,Oakridge,2015,409.0,Historical
+1190.0,121,Oakridge,2016,331.0,Historical
+1191.0,121,Oakridge,2017,359.0,Historical
+1192.0,121,Oakridge,2018,360.0,Historical
+1193.0,121,Oakridge,2019,325.0,Historical
+1194.0,121,Oakridge,2020,308.0,Historical
+1195.0,121,Oakridge,2021,342.0,Historical
+1196.0,121,Oakridge,2022,332.0,Historical
+1197.0,121,Oakridge,2023,350.0,Historical
+1198.0,121,Oakridge,2024,379.0,Historical
+1199.0,122,Birchcliffe-Cliffside,2014,338.0,Historical
+1200.0,122,Birchcliffe-Cliffside,2015,389.0,Historical
+1201.0,122,Birchcliffe-Cliffside,2016,435.0,Historical
+1202.0,122,Birchcliffe-Cliffside,2017,353.0,Historical
+1203.0,122,Birchcliffe-Cliffside,2018,429.0,Historical
+1204.0,122,Birchcliffe-Cliffside,2019,431.0,Historical
+1205.0,122,Birchcliffe-Cliffside,2020,340.0,Historical
+1206.0,122,Birchcliffe-Cliffside,2021,313.0,Historical
+1207.0,122,Birchcliffe-Cliffside,2022,333.0,Historical
+1208.0,122,Birchcliffe-Cliffside,2023,399.0,Historical
+1209.0,122,Birchcliffe-Cliffside,2024,336.0,Historical
+1210.0,123,Cliffcrest,2014,220.0,Historical
+1211.0,123,Cliffcrest,2015,258.0,Historical
+1212.0,123,Cliffcrest,2016,278.0,Historical
+1213.0,123,Cliffcrest,2017,294.0,Historical
+1214.0,123,Cliffcrest,2018,301.0,Historical
+1215.0,123,Cliffcrest,2019,346.0,Historical
+1216.0,123,Cliffcrest,2020,291.0,Historical
+1217.0,123,Cliffcrest,2021,251.0,Historical
+1218.0,123,Cliffcrest,2022,303.0,Historical
+1219.0,123,Cliffcrest,2023,338.0,Historical
+1220.0,123,Cliffcrest,2024,314.0,Historical
+1221.0,124,Kennedy Park,2014,391.0,Historical
+1222.0,124,Kennedy Park,2015,411.0,Historical
+1223.0,124,Kennedy Park,2016,342.0,Historical
+1224.0,124,Kennedy Park,2017,407.0,Historical
+1225.0,124,Kennedy Park,2018,420.0,Historical
+1226.0,124,Kennedy Park,2019,389.0,Historical
+1227.0,124,Kennedy Park,2020,350.0,Historical
+1228.0,124,Kennedy Park,2021,363.0,Historical
+1229.0,124,Kennedy Park,2022,457.0,Historical
+1230.0,124,Kennedy Park,2023,530.0,Historical
+1231.0,124,Kennedy Park,2024,463.0,Historical
+1232.0,125,Ionview,2014,180.0,Historical
+1233.0,125,Ionview,2015,224.0,Historical
+1234.0,125,Ionview,2016,157.0,Historical
+1235.0,125,Ionview,2017,170.0,Historical
+1236.0,125,Ionview,2018,151.0,Historical
+1237.0,125,Ionview,2019,160.0,Historical
+1238.0,125,Ionview,2020,148.0,Historical
+1239.0,125,Ionview,2021,168.0,Historical
+1240.0,125,Ionview,2022,166.0,Historical
+1241.0,125,Ionview,2023,220.0,Historical
+1242.0,125,Ionview,2024,181.0,Historical
+1243.0,126,Dorset Park,2014,400.0,Historical
+1244.0,126,Dorset Park,2015,449.0,Historical
+1245.0,126,Dorset Park,2016,461.0,Historical
+1246.0,126,Dorset Park,2017,434.0,Historical
+1247.0,126,Dorset Park,2018,472.0,Historical
+1248.0,126,Dorset Park,2019,417.0,Historical
+1249.0,126,Dorset Park,2020,425.0,Historical
+1250.0,126,Dorset Park,2021,358.0,Historical
+1251.0,126,Dorset Park,2022,467.0,Historical
+1252.0,126,Dorset Park,2023,555.0,Historical
+1253.0,126,Dorset Park,2024,538.0,Historical
+1254.0,128,Agincourt South-Malvern West,2014,342.0,Historical
+1255.0,128,Agincourt South-Malvern West,2015,301.0,Historical
+1256.0,128,Agincourt South-Malvern West,2016,318.0,Historical
+1257.0,128,Agincourt South-Malvern West,2017,381.0,Historical
+1258.0,128,Agincourt South-Malvern West,2018,375.0,Historical
+1259.0,128,Agincourt South-Malvern West,2019,386.0,Historical
+1260.0,128,Agincourt South-Malvern West,2020,372.0,Historical
+1261.0,128,Agincourt South-Malvern West,2021,362.0,Historical
+1262.0,128,Agincourt South-Malvern West,2022,445.0,Historical
+1263.0,128,Agincourt South-Malvern West,2023,505.0,Historical
+1264.0,128,Agincourt South-Malvern West,2024,440.0,Historical
+1265.0,129,Agincourt North,2014,235.0,Historical
+1266.0,129,Agincourt North,2015,257.0,Historical
+1267.0,129,Agincourt North,2016,220.0,Historical
+1268.0,129,Agincourt North,2017,287.0,Historical
+1269.0,129,Agincourt North,2018,309.0,Historical
+1270.0,129,Agincourt North,2019,291.0,Historical
+1271.0,129,Agincourt North,2020,239.0,Historical
+1272.0,129,Agincourt North,2021,175.0,Historical
+1273.0,129,Agincourt North,2022,211.0,Historical
+1274.0,129,Agincourt North,2023,305.0,Historical
+1275.0,129,Agincourt North,2024,344.0,Historical
+1276.0,130,Milliken,2014,331.0,Historical
+1277.0,130,Milliken,2015,369.0,Historical
+1278.0,130,Milliken,2016,281.0,Historical
+1279.0,130,Milliken,2017,374.0,Historical
+1280.0,130,Milliken,2018,401.0,Historical
+1281.0,130,Milliken,2019,463.0,Historical
+1282.0,130,Milliken,2020,343.0,Historical
+1283.0,130,Milliken,2021,338.0,Historical
+1284.0,130,Milliken,2022,370.0,Historical
+1285.0,130,Milliken,2023,625.0,Historical
+1286.0,130,Milliken,2024,546.0,Historical
+1287.0,133,Centennial Scarborough,2014,117.0,Historical
+1288.0,133,Centennial Scarborough,2015,79.0,Historical
+1289.0,133,Centennial Scarborough,2016,138.0,Historical
+1290.0,133,Centennial Scarborough,2017,143.0,Historical
+1291.0,133,Centennial Scarborough,2018,116.0,Historical
+1292.0,133,Centennial Scarborough,2019,140.0,Historical
+1293.0,133,Centennial Scarborough,2020,113.0,Historical
+1294.0,133,Centennial Scarborough,2021,109.0,Historical
+1295.0,133,Centennial Scarborough,2022,149.0,Historical
+1296.0,133,Centennial Scarborough,2023,140.0,Historical
+1297.0,133,Centennial Scarborough,2024,147.0,Historical
+1298.0,134,Highland Creek,2014,167.0,Historical
+1299.0,134,Highland Creek,2015,175.0,Historical
+1300.0,134,Highland Creek,2016,173.0,Historical
+1301.0,134,Highland Creek,2017,184.0,Historical
+1302.0,134,Highland Creek,2018,130.0,Historical
+1303.0,134,Highland Creek,2019,186.0,Historical
+1304.0,134,Highland Creek,2020,112.0,Historical
+1305.0,134,Highland Creek,2021,101.0,Historical
+1306.0,134,Highland Creek,2022,160.0,Historical
+1307.0,134,Highland Creek,2023,173.0,Historical
+1308.0,134,Highland Creek,2024,196.0,Historical
+1309.0,135,Morningside,2014,226.0,Historical
+1310.0,135,Morningside,2015,243.0,Historical
+1311.0,135,Morningside,2016,233.0,Historical
+1312.0,135,Morningside,2017,244.0,Historical
+1313.0,135,Morningside,2018,217.0,Historical
+1314.0,135,Morningside,2019,265.0,Historical
+1315.0,135,Morningside,2020,199.0,Historical
+1316.0,135,Morningside,2021,162.0,Historical
+1317.0,135,Morningside,2022,325.0,Historical
+1318.0,135,Morningside,2023,249.0,Historical
+1319.0,135,Morningside,2024,304.0,Historical
+1320.0,136,West Hill,2014,604.0,Historical
+1321.0,136,West Hill,2015,635.0,Historical
+1322.0,136,West Hill,2016,689.0,Historical
+1323.0,136,West Hill,2017,720.0,Historical
+1324.0,136,West Hill,2018,697.0,Historical
+1325.0,136,West Hill,2019,718.0,Historical
+1326.0,136,West Hill,2020,641.0,Historical
+1327.0,136,West Hill,2021,684.0,Historical
+1328.0,136,West Hill,2022,736.0,Historical
+1329.0,136,West Hill,2023,828.0,Historical
+1330.0,136,West Hill,2024,759.0,Historical
+1331.0,138,Eglinton East,2014,359.0,Historical
+1332.0,138,Eglinton East,2015,382.0,Historical
+1333.0,138,Eglinton East,2016,393.0,Historical
+1334.0,138,Eglinton East,2017,403.0,Historical
+1335.0,138,Eglinton East,2018,357.0,Historical
+1336.0,138,Eglinton East,2019,403.0,Historical
+1337.0,138,Eglinton East,2020,358.0,Historical
+1338.0,138,Eglinton East,2021,315.0,Historical
+1339.0,138,Eglinton East,2022,411.0,Historical
+1340.0,138,Eglinton East,2023,435.0,Historical
+1341.0,138,Eglinton East,2024,443.0,Historical
+1342.0,139,Scarborough Village,2014,324.0,Historical
+1343.0,139,Scarborough Village,2015,279.0,Historical
+1344.0,139,Scarborough Village,2016,307.0,Historical
+1345.0,139,Scarborough Village,2017,290.0,Historical
+1346.0,139,Scarborough Village,2018,314.0,Historical
+1347.0,139,Scarborough Village,2019,328.0,Historical
+1348.0,139,Scarborough Village,2020,358.0,Historical
+1349.0,139,Scarborough Village,2021,259.0,Historical
+1350.0,139,Scarborough Village,2022,279.0,Historical
+1351.0,139,Scarborough Village,2023,343.0,Historical
+1352.0,139,Scarborough Village,2024,352.0,Historical
+1353.0,140,Guildwood,2014,109.0,Historical
+1354.0,140,Guildwood,2015,128.0,Historical
+1355.0,140,Guildwood,2016,112.0,Historical
+1356.0,140,Guildwood,2017,115.0,Historical
+1357.0,140,Guildwood,2018,102.0,Historical
+1358.0,140,Guildwood,2019,82.0,Historical
+1359.0,140,Guildwood,2020,94.0,Historical
+1360.0,140,Guildwood,2021,95.0,Historical
+1361.0,140,Guildwood,2022,115.0,Historical
+1362.0,140,Guildwood,2023,124.0,Historical
+1363.0,140,Guildwood,2024,105.0,Historical
+1364.0,141,Golfdale-Cedarbrae-Woburn,2014,364.0,Historical
+1365.0,141,Golfdale-Cedarbrae-Woburn,2015,412.0,Historical
+1366.0,141,Golfdale-Cedarbrae-Woburn,2016,350.0,Historical
+1367.0,141,Golfdale-Cedarbrae-Woburn,2017,438.0,Historical
+1368.0,141,Golfdale-Cedarbrae-Woburn,2018,387.0,Historical
+1369.0,141,Golfdale-Cedarbrae-Woburn,2019,404.0,Historical
+1370.0,141,Golfdale-Cedarbrae-Woburn,2020,356.0,Historical
+1371.0,141,Golfdale-Cedarbrae-Woburn,2021,365.0,Historical
+1372.0,141,Golfdale-Cedarbrae-Woburn,2022,435.0,Historical
+1373.0,141,Golfdale-Cedarbrae-Woburn,2023,423.0,Historical
+1374.0,141,Golfdale-Cedarbrae-Woburn,2024,385.0,Historical
+1375.0,142,Woburn North,2014,366.0,Historical
+1376.0,142,Woburn North,2015,397.0,Historical
+1377.0,142,Woburn North,2016,340.0,Historical
+1378.0,142,Woburn North,2017,394.0,Historical
+1379.0,142,Woburn North,2018,420.0,Historical
+1380.0,142,Woburn North,2019,445.0,Historical
+1381.0,142,Woburn North,2020,395.0,Historical
+1382.0,142,Woburn North,2021,374.0,Historical
+1383.0,142,Woburn North,2022,492.0,Historical
+1384.0,142,Woburn North,2023,482.0,Historical
+1385.0,142,Woburn North,2024,470.0,Historical
+1386.0,143,West Rouge,2014,238.0,Historical
+1387.0,143,West Rouge,2015,168.0,Historical
+1388.0,143,West Rouge,2016,168.0,Historical
+1389.0,143,West Rouge,2017,235.0,Historical
+1390.0,143,West Rouge,2018,231.0,Historical
+1391.0,143,West Rouge,2019,203.0,Historical
+1392.0,143,West Rouge,2020,197.0,Historical
+1393.0,143,West Rouge,2021,179.0,Historical
+1394.0,143,West Rouge,2022,234.0,Historical
+1395.0,143,West Rouge,2023,277.0,Historical
+1396.0,143,West Rouge,2024,252.0,Historical
+1397.0,144,Morningside Heights,2014,241.0,Historical
+1398.0,144,Morningside Heights,2015,259.0,Historical
+1399.0,144,Morningside Heights,2016,225.0,Historical
+1400.0,144,Morningside Heights,2017,264.0,Historical
+1401.0,144,Morningside Heights,2018,285.0,Historical
+1402.0,144,Morningside Heights,2019,274.0,Historical
+1403.0,144,Morningside Heights,2020,247.0,Historical
+1404.0,144,Morningside Heights,2021,270.0,Historical
+1405.0,144,Morningside Heights,2022,357.0,Historical
+1406.0,144,Morningside Heights,2023,429.0,Historical
+1407.0,144,Morningside Heights,2024,398.0,Historical
+1408.0,145,Malvern West,2014,182.0,Historical
+1409.0,145,Malvern West,2015,191.0,Historical
+1410.0,145,Malvern West,2016,237.0,Historical
+1411.0,145,Malvern West,2017,236.0,Historical
+1412.0,145,Malvern West,2018,243.0,Historical
+1413.0,145,Malvern West,2019,277.0,Historical
+1414.0,145,Malvern West,2020,159.0,Historical
+1415.0,145,Malvern West,2021,182.0,Historical
+1416.0,145,Malvern West,2022,202.0,Historical
+1417.0,145,Malvern West,2023,231.0,Historical
+1418.0,145,Malvern West,2024,236.0,Historical
+1419.0,146,Malvern East,2014,253.0,Historical
+1420.0,146,Malvern East,2015,284.0,Historical
+1421.0,146,Malvern East,2016,302.0,Historical
+1422.0,146,Malvern East,2017,329.0,Historical
+1423.0,146,Malvern East,2018,315.0,Historical
+1424.0,146,Malvern East,2019,340.0,Historical
+1425.0,146,Malvern East,2020,316.0,Historical
+1426.0,146,Malvern East,2021,265.0,Historical
+1427.0,146,Malvern East,2022,294.0,Historical
+1428.0,146,Malvern East,2023,324.0,Historical
+1429.0,146,Malvern East,2024,308.0,Historical
+1430.0,147,LAmoreaux West,2014,179.0,Historical
+1431.0,147,LAmoreaux West,2015,191.0,Historical
+1432.0,147,LAmoreaux West,2016,200.0,Historical
+1433.0,147,LAmoreaux West,2017,239.0,Historical
+1434.0,147,LAmoreaux West,2018,225.0,Historical
+1435.0,147,LAmoreaux West,2019,250.0,Historical
+1436.0,147,LAmoreaux West,2020,205.0,Historical
+1437.0,147,LAmoreaux West,2021,195.0,Historical
+1438.0,147,LAmoreaux West,2022,219.0,Historical
+1439.0,147,LAmoreaux West,2023,288.0,Historical
+1440.0,147,LAmoreaux West,2024,296.0,Historical
+1441.0,148,East LAmoreaux,2014,176.0,Historical
+1442.0,148,East LAmoreaux,2015,200.0,Historical
+1443.0,148,East LAmoreaux,2016,167.0,Historical
+1444.0,148,East LAmoreaux,2017,174.0,Historical
+1445.0,148,East LAmoreaux,2018,187.0,Historical
+1446.0,148,East LAmoreaux,2019,220.0,Historical
+1447.0,148,East LAmoreaux,2020,192.0,Historical
+1448.0,148,East LAmoreaux,2021,144.0,Historical
+1449.0,148,East LAmoreaux,2022,205.0,Historical
+1450.0,148,East LAmoreaux,2023,228.0,Historical
+1451.0,148,East LAmoreaux,2024,238.0,Historical
+1452.0,149,Parkwoods-OConnor Hills,2014,135.0,Historical
+1453.0,149,Parkwoods-OConnor Hills,2015,138.0,Historical
+1454.0,149,Parkwoods-OConnor Hills,2016,144.0,Historical
+1455.0,149,Parkwoods-OConnor Hills,2017,192.0,Historical
+1456.0,149,Parkwoods-OConnor Hills,2018,135.0,Historical
+1457.0,149,Parkwoods-OConnor Hills,2019,142.0,Historical
+1458.0,149,Parkwoods-OConnor Hills,2020,131.0,Historical
+1459.0,149,Parkwoods-OConnor Hills,2021,139.0,Historical
+1460.0,149,Parkwoods-OConnor Hills,2022,160.0,Historical
+1461.0,149,Parkwoods-OConnor Hills,2023,232.0,Historical
+1462.0,149,Parkwoods-OConnor Hills,2024,213.0,Historical
+1463.0,150,Fenside-Parkwoods,2014,236.0,Historical
+1464.0,150,Fenside-Parkwoods,2015,231.0,Historical
+1465.0,150,Fenside-Parkwoods,2016,239.0,Historical
+1466.0,150,Fenside-Parkwoods,2017,256.0,Historical
+1467.0,150,Fenside-Parkwoods,2018,191.0,Historical
+1468.0,150,Fenside-Parkwoods,2019,267.0,Historical
+1469.0,150,Fenside-Parkwoods,2020,218.0,Historical
+1470.0,150,Fenside-Parkwoods,2021,205.0,Historical
+1471.0,150,Fenside-Parkwoods,2022,227.0,Historical
+1472.0,150,Fenside-Parkwoods,2023,255.0,Historical
+1473.0,150,Fenside-Parkwoods,2024,269.0,Historical
+1474.0,151,Yonge-Doris,2014,114.0,Historical
+1475.0,151,Yonge-Doris,2015,121.0,Historical
+1476.0,151,Yonge-Doris,2016,153.0,Historical
+1477.0,151,Yonge-Doris,2017,152.0,Historical
+1478.0,151,Yonge-Doris,2018,184.0,Historical
+1479.0,151,Yonge-Doris,2019,243.0,Historical
+1480.0,151,Yonge-Doris,2020,238.0,Historical
+1481.0,151,Yonge-Doris,2021,252.0,Historical
+1482.0,151,Yonge-Doris,2022,255.0,Historical
+1483.0,151,Yonge-Doris,2023,357.0,Historical
+1484.0,151,Yonge-Doris,2024,252.0,Historical
+1485.0,152,East Willowdale,2014,183.0,Historical
+1486.0,152,East Willowdale,2015,166.0,Historical
+1487.0,152,East Willowdale,2016,208.0,Historical
+1488.0,152,East Willowdale,2017,211.0,Historical
+1489.0,152,East Willowdale,2018,189.0,Historical
+1490.0,152,East Willowdale,2019,222.0,Historical
+1491.0,152,East Willowdale,2020,186.0,Historical
+1492.0,152,East Willowdale,2021,209.0,Historical
+1493.0,152,East Willowdale,2022,242.0,Historical
+1494.0,152,East Willowdale,2023,324.0,Historical
+1495.0,152,East Willowdale,2024,287.0,Historical
+1496.0,153,Avondale,2014,68.0,Historical
+1497.0,153,Avondale,2015,61.0,Historical
+1498.0,153,Avondale,2016,83.0,Historical
+1499.0,153,Avondale,2017,97.0,Historical
+1500.0,153,Avondale,2018,123.0,Historical
+1501.0,153,Avondale,2019,107.0,Historical
+1502.0,153,Avondale,2020,173.0,Historical
+1503.0,153,Avondale,2021,152.0,Historical
+1504.0,153,Avondale,2022,141.0,Historical
+1505.0,153,Avondale,2023,178.0,Historical
+1506.0,153,Avondale,2024,133.0,Historical
+1507.0,154,Oakdale-Beverley Heights,2014,478.0,Historical
+1508.0,154,Oakdale-Beverley Heights,2015,441.0,Historical
+1509.0,154,Oakdale-Beverley Heights,2016,400.0,Historical
+1510.0,154,Oakdale-Beverley Heights,2017,488.0,Historical
+1511.0,154,Oakdale-Beverley Heights,2018,601.0,Historical
+1512.0,154,Oakdale-Beverley Heights,2019,646.0,Historical
+1513.0,154,Oakdale-Beverley Heights,2020,619.0,Historical
+1514.0,154,Oakdale-Beverley Heights,2021,648.0,Historical
+1515.0,154,Oakdale-Beverley Heights,2022,651.0,Historical
+1516.0,154,Oakdale-Beverley Heights,2023,844.0,Historical
+1517.0,154,Oakdale-Beverley Heights,2024,743.0,Historical
+1518.0,155,Downsview,2014,283.0,Historical
+1519.0,155,Downsview,2015,281.0,Historical
+1520.0,155,Downsview,2016,282.0,Historical
+1521.0,155,Downsview,2017,280.0,Historical
+1522.0,155,Downsview,2018,304.0,Historical
+1523.0,155,Downsview,2019,361.0,Historical
+1524.0,155,Downsview,2020,323.0,Historical
+1525.0,155,Downsview,2021,305.0,Historical
+1526.0,155,Downsview,2022,413.0,Historical
+1527.0,155,Downsview,2023,500.0,Historical
+1528.0,155,Downsview,2024,410.0,Historical
+1529.0,156,Bendale-Glen Andrew,2014,397.0,Historical
+1530.0,156,Bendale-Glen Andrew,2015,354.0,Historical
+1531.0,156,Bendale-Glen Andrew,2016,357.0,Historical
+1532.0,156,Bendale-Glen Andrew,2017,396.0,Historical
+1533.0,156,Bendale-Glen Andrew,2018,368.0,Historical
+1534.0,156,Bendale-Glen Andrew,2019,369.0,Historical
+1535.0,156,Bendale-Glen Andrew,2020,276.0,Historical
+1536.0,156,Bendale-Glen Andrew,2021,330.0,Historical
+1537.0,156,Bendale-Glen Andrew,2022,425.0,Historical
+1538.0,156,Bendale-Glen Andrew,2023,580.0,Historical
+1539.0,156,Bendale-Glen Andrew,2024,507.0,Historical
+1540.0,157,Bendale South,2014,133.0,Historical
+1541.0,157,Bendale South,2015,161.0,Historical
+1542.0,157,Bendale South,2016,158.0,Historical
+1543.0,157,Bendale South,2017,212.0,Historical
+1544.0,157,Bendale South,2018,135.0,Historical
+1545.0,157,Bendale South,2019,154.0,Historical
+1546.0,157,Bendale South,2020,129.0,Historical
+1547.0,157,Bendale South,2021,118.0,Historical
+1548.0,157,Bendale South,2022,107.0,Historical
+1549.0,157,Bendale South,2023,161.0,Historical
+1550.0,157,Bendale South,2024,150.0,Historical
+1551.0,158,Islington,2014,281.0,Historical
+1552.0,158,Islington,2015,275.0,Historical
+1553.0,158,Islington,2016,248.0,Historical
+1554.0,158,Islington,2017,240.0,Historical
+1555.0,158,Islington,2018,268.0,Historical
+1556.0,158,Islington,2019,293.0,Historical
+1557.0,158,Islington,2020,281.0,Historical
+1558.0,158,Islington,2021,222.0,Historical
+1559.0,158,Islington,2022,358.0,Historical
+1560.0,158,Islington,2023,448.0,Historical
+1561.0,158,Islington,2024,403.0,Historical
+1562.0,159,Etobicoke City Centre,2014,464.0,Historical
+1563.0,159,Etobicoke City Centre,2015,515.0,Historical
+1564.0,159,Etobicoke City Centre,2016,470.0,Historical
+1565.0,159,Etobicoke City Centre,2017,442.0,Historical
+1566.0,159,Etobicoke City Centre,2018,538.0,Historical
+1567.0,159,Etobicoke City Centre,2019,514.0,Historical
+1568.0,159,Etobicoke City Centre,2020,510.0,Historical
+1569.0,159,Etobicoke City Centre,2021,547.0,Historical
+1570.0,159,Etobicoke City Centre,2022,773.0,Historical
+1571.0,159,Etobicoke City Centre,2023,978.0,Historical
+1572.0,159,Etobicoke City Centre,2024,796.0,Historical
+1573.0,160,Mimico-Queensway,2014,320.0,Historical
+1574.0,160,Mimico-Queensway,2015,295.0,Historical
+1575.0,160,Mimico-Queensway,2016,287.0,Historical
+1576.0,160,Mimico-Queensway,2017,416.0,Historical
+1577.0,160,Mimico-Queensway,2018,564.0,Historical
+1578.0,160,Mimico-Queensway,2019,435.0,Historical
+1579.0,160,Mimico-Queensway,2020,340.0,Historical
+1580.0,160,Mimico-Queensway,2021,395.0,Historical
+1581.0,160,Mimico-Queensway,2022,568.0,Historical
+1582.0,160,Mimico-Queensway,2023,723.0,Historical
+1583.0,160,Mimico-Queensway,2024,1087.0,Historical
+1584.0,161,Humber Bay Shores,2014,141.0,Historical
+1585.0,161,Humber Bay Shores,2015,154.0,Historical
+1586.0,161,Humber Bay Shores,2016,178.0,Historical
+1587.0,161,Humber Bay Shores,2017,201.0,Historical
+1588.0,161,Humber Bay Shores,2018,196.0,Historical
+1589.0,161,Humber Bay Shores,2019,261.0,Historical
+1590.0,161,Humber Bay Shores,2020,206.0,Historical
+1591.0,161,Humber Bay Shores,2021,212.0,Historical
+1592.0,161,Humber Bay Shores,2022,317.0,Historical
+1593.0,161,Humber Bay Shores,2023,333.0,Historical
+1594.0,161,Humber Bay Shores,2024,279.0,Historical
+1595.0,162,West Queen West,2014,328.0,Historical
+1596.0,162,West Queen West,2015,273.0,Historical
+1597.0,162,West Queen West,2016,291.0,Historical
+1598.0,162,West Queen West,2017,321.0,Historical
+1599.0,162,West Queen West,2018,274.0,Historical
+1600.0,162,West Queen West,2019,341.0,Historical
+1601.0,162,West Queen West,2020,307.0,Historical
+1602.0,162,West Queen West,2021,275.0,Historical
+1603.0,162,West Queen West,2022,240.0,Historical
+1604.0,162,West Queen West,2023,250.0,Historical
+1605.0,162,West Queen West,2024,253.0,Historical
+1606.0,163,Fort York-Liberty Village,2014,242.0,Historical
+1607.0,163,Fort York-Liberty Village,2015,317.0,Historical
+1608.0,163,Fort York-Liberty Village,2016,241.0,Historical
+1609.0,163,Fort York-Liberty Village,2017,292.0,Historical
+1610.0,163,Fort York-Liberty Village,2018,337.0,Historical
+1611.0,163,Fort York-Liberty Village,2019,415.0,Historical
+1612.0,163,Fort York-Liberty Village,2020,284.0,Historical
+1613.0,163,Fort York-Liberty Village,2021,326.0,Historical
+1614.0,163,Fort York-Liberty Village,2022,299.0,Historical
+1615.0,163,Fort York-Liberty Village,2023,325.0,Historical
+1616.0,163,Fort York-Liberty Village,2024,392.0,Historical
+1617.0,164,Wellington Place,2014,851.0,Historical
+1618.0,164,Wellington Place,2015,832.0,Historical
+1619.0,164,Wellington Place,2016,952.0,Historical
+1620.0,164,Wellington Place,2017,988.0,Historical
+1621.0,164,Wellington Place,2018,1027.0,Historical
+1622.0,164,Wellington Place,2019,906.0,Historical
+1623.0,164,Wellington Place,2020,806.0,Historical
+1624.0,164,Wellington Place,2021,787.0,Historical
+1625.0,164,Wellington Place,2022,914.0,Historical
+1626.0,164,Wellington Place,2023,890.0,Historical
+1627.0,164,Wellington Place,2024,909.0,Historical
+1628.0,165,Harbourfront-CityPlace,2014,337.0,Historical
+1629.0,165,Harbourfront-CityPlace,2015,408.0,Historical
+1630.0,165,Harbourfront-CityPlace,2016,416.0,Historical
+1631.0,165,Harbourfront-CityPlace,2017,513.0,Historical
+1632.0,165,Harbourfront-CityPlace,2018,476.0,Historical
+1633.0,165,Harbourfront-CityPlace,2019,487.0,Historical
+1634.0,165,Harbourfront-CityPlace,2020,479.0,Historical
+1635.0,165,Harbourfront-CityPlace,2021,539.0,Historical
+1636.0,165,Harbourfront-CityPlace,2022,551.0,Historical
+1637.0,165,Harbourfront-CityPlace,2023,601.0,Historical
+1638.0,165,Harbourfront-CityPlace,2024,503.0,Historical
+1639.0,166,St Lawrence-East Bayfront-The Islands,2014,556.0,Historical
+1640.0,166,St Lawrence-East Bayfront-The Islands,2015,501.0,Historical
+1641.0,166,St Lawrence-East Bayfront-The Islands,2016,542.0,Historical
+1642.0,166,St Lawrence-East Bayfront-The Islands,2017,553.0,Historical
+1643.0,166,St Lawrence-East Bayfront-The Islands,2018,687.0,Historical
+1644.0,166,St Lawrence-East Bayfront-The Islands,2019,723.0,Historical
+1645.0,166,St Lawrence-East Bayfront-The Islands,2020,731.0,Historical
+1646.0,166,St Lawrence-East Bayfront-The Islands,2021,810.0,Historical
+1647.0,166,St Lawrence-East Bayfront-The Islands,2022,845.0,Historical
+1648.0,166,St Lawrence-East Bayfront-The Islands,2023,870.0,Historical
+1649.0,166,St Lawrence-East Bayfront-The Islands,2024,875.0,Historical
+1650.0,167,Church-Wellesley,2014,534.0,Historical
+1651.0,167,Church-Wellesley,2015,513.0,Historical
+1652.0,167,Church-Wellesley,2016,610.0,Historical
+1653.0,167,Church-Wellesley,2017,653.0,Historical
+1654.0,167,Church-Wellesley,2018,687.0,Historical
+1655.0,167,Church-Wellesley,2019,786.0,Historical
+1656.0,167,Church-Wellesley,2020,668.0,Historical
+1657.0,167,Church-Wellesley,2021,745.0,Historical
+1658.0,167,Church-Wellesley,2022,680.0,Historical
+1659.0,167,Church-Wellesley,2023,707.0,Historical
+1660.0,167,Church-Wellesley,2024,655.0,Historical
+1661.0,168,Downtown Yonge East,2014,919.0,Historical
+1662.0,168,Downtown Yonge East,2015,895.0,Historical
+1663.0,168,Downtown Yonge East,2016,837.0,Historical
+1664.0,168,Downtown Yonge East,2017,1125.0,Historical
+1665.0,168,Downtown Yonge East,2018,1206.0,Historical
+1666.0,168,Downtown Yonge East,2019,1396.0,Historical
+1667.0,168,Downtown Yonge East,2020,1080.0,Historical
+1668.0,168,Downtown Yonge East,2021,1206.0,Historical
+1669.0,168,Downtown Yonge East,2022,1047.0,Historical
+1670.0,168,Downtown Yonge East,2023,1259.0,Historical
+1671.0,168,Downtown Yonge East,2024,1216.0,Historical
+1672.0,169,Bay-Cloverhill,2014,281.0,Historical
+1673.0,169,Bay-Cloverhill,2015,288.0,Historical
+1674.0,169,Bay-Cloverhill,2016,341.0,Historical
+1675.0,169,Bay-Cloverhill,2017,370.0,Historical
+1676.0,169,Bay-Cloverhill,2018,394.0,Historical
+1677.0,169,Bay-Cloverhill,2019,407.0,Historical
+1678.0,169,Bay-Cloverhill,2020,314.0,Historical
+1679.0,169,Bay-Cloverhill,2021,317.0,Historical
+1680.0,169,Bay-Cloverhill,2022,302.0,Historical
+1681.0,169,Bay-Cloverhill,2023,350.0,Historical
+1682.0,169,Bay-Cloverhill,2024,348.0,Historical
+1683.0,170,Yonge-Bay Corridor,2014,919.0,Historical
+1684.0,170,Yonge-Bay Corridor,2015,999.0,Historical
+1685.0,170,Yonge-Bay Corridor,2016,940.0,Historical
+1686.0,170,Yonge-Bay Corridor,2017,1165.0,Historical
+1687.0,170,Yonge-Bay Corridor,2018,1216.0,Historical
+1688.0,170,Yonge-Bay Corridor,2019,1340.0,Historical
+1689.0,170,Yonge-Bay Corridor,2020,938.0,Historical
+1690.0,170,Yonge-Bay Corridor,2021,760.0,Historical
+1691.0,170,Yonge-Bay Corridor,2022,1037.0,Historical
+1692.0,170,Yonge-Bay Corridor,2023,1115.0,Historical
+1693.0,170,Yonge-Bay Corridor,2024,1071.0,Historical
+1694.0,171,Junction-Wallace Emerson,2014,370.0,Historical
+1695.0,171,Junction-Wallace Emerson,2015,329.0,Historical
+1696.0,171,Junction-Wallace Emerson,2016,356.0,Historical
+1697.0,171,Junction-Wallace Emerson,2017,407.0,Historical
+1698.0,171,Junction-Wallace Emerson,2018,540.0,Historical
+1699.0,171,Junction-Wallace Emerson,2019,547.0,Historical
+1700.0,171,Junction-Wallace Emerson,2020,559.0,Historical
+1701.0,171,Junction-Wallace Emerson,2021,404.0,Historical
+1702.0,171,Junction-Wallace Emerson,2022,369.0,Historical
+1703.0,171,Junction-Wallace Emerson,2023,489.0,Historical
+1704.0,171,Junction-Wallace Emerson,2024,454.0,Historical
+1705.0,172,Dovercourt Village,2014,219.0,Historical
+1706.0,172,Dovercourt Village,2015,203.0,Historical
+1707.0,172,Dovercourt Village,2016,277.0,Historical
+1708.0,172,Dovercourt Village,2017,295.0,Historical
+1709.0,172,Dovercourt Village,2018,324.0,Historical
+1710.0,172,Dovercourt Village,2019,338.0,Historical
+1711.0,172,Dovercourt Village,2020,282.0,Historical
+1712.0,172,Dovercourt Village,2021,215.0,Historical
+1713.0,172,Dovercourt Village,2022,228.0,Historical
+1714.0,172,Dovercourt Village,2023,265.0,Historical
+1715.0,172,Dovercourt Village,2024,278.0,Historical
+1716.0,173,North Toronto,2014,125.0,Historical
+1717.0,173,North Toronto,2015,137.0,Historical
+1718.0,173,North Toronto,2016,98.0,Historical
+1719.0,173,North Toronto,2017,123.0,Historical
+1720.0,173,North Toronto,2018,157.0,Historical
+1721.0,173,North Toronto,2019,189.0,Historical
+1722.0,173,North Toronto,2020,270.0,Historical
+1723.0,173,North Toronto,2021,235.0,Historical
+1724.0,173,North Toronto,2022,247.0,Historical
+1725.0,173,North Toronto,2023,237.0,Historical
+1726.0,173,North Toronto,2024,218.0,Historical
+1727.0,174,South Eglinton-Davisville,2014,126.0,Historical
+1728.0,174,South Eglinton-Davisville,2015,140.0,Historical
+1729.0,174,South Eglinton-Davisville,2016,146.0,Historical
+1730.0,174,South Eglinton-Davisville,2017,175.0,Historical
+1731.0,174,South Eglinton-Davisville,2018,200.0,Historical
+1732.0,174,South Eglinton-Davisville,2019,228.0,Historical
+1733.0,174,South Eglinton-Davisville,2020,312.0,Historical
+1734.0,174,South Eglinton-Davisville,2021,236.0,Historical
+1735.0,174,South Eglinton-Davisville,2022,233.0,Historical
+1736.0,174,South Eglinton-Davisville,2023,251.0,Historical
+1737.0,174,South Eglinton-Davisville,2024,262.0,Historical
+,1,West Humber-Clairville,2025,1500.0,Forecast
+,2,Mount Olive-Silverstone-Jamestown,2025,573.0,Forecast
+,3,Thistletown-Beaumond Heights,2025,161.0,Forecast
+,4,Rexdale-Kipling,2025,211.0,Forecast
+,5,Elms-Old Rexdale,2025,218.0,Forecast
+,6,Kingsview Village-The Westway,2025,339.0,Forecast
+,7,Willowridge-Martingrove-Richview,2025,287.0,Forecast
+,8,Humber Heights-Westmount,2025,138.0,Forecast
+,9,Edenbridge-Humber Valley,2025,194.0,Forecast
+,10,Princess-Rosethorn,2025,121.0,Forecast
+,11,Eringate-Centennial-West Deane,2025,271.0,Forecast
+,12,Markland Wood,2025,126.0,Forecast
+,13,Etobicoke West Mall,2025,142.0,Forecast
+,15,Kingsway South,2025,127.0,Forecast
+,16,Stonegate-Queensway,2025,370.0,Forecast
+,18,New Toronto,2025,256.0,Forecast
+,19,Long Branch,2025,182.0,Forecast
+,20,Alderwood,2025,147.0,Forecast
+,21,Humber Summit,2025,408.0,Forecast
+,22,Humbermede,2025,370.0,Forecast
+,23,Pelmo Park-Humberlea,2025,245.0,Forecast
+,24,Black Creek,2025,444.0,Forecast
+,25,Glenfield-Jane Heights,2025,590.0,Forecast
+,27,York University Heights,2025,1096.0,Forecast
+,28,Rustic,2025,162.0,Forecast
+,29,Maple Leaf,2025,108.0,Forecast
+,30,Brookhaven-Amesbury,2025,316.0,Forecast
+,31,Yorkdale-Glen Park,2025,604.0,Forecast
+,32,Englemount-Lawrence,2025,246.0,Forecast
+,33,Clanton Park,2025,368.0,Forecast
+,34,Bathurst Manor,2025,267.0,Forecast
+,35,Westminster-Branson,2025,283.0,Forecast
+,36,Newtonbrook West,2025,510.0,Forecast
+,37,Willowdale West,2025,237.0,Forecast
+,38,Lansing-Westgate,2025,269.0,Forecast
+,39,Bedford Park-Nortown,2025,337.0,Forecast
+,40,StAndrew-Windfields,2025,331.0,Forecast
+,41,Bridle Path-Sunnybrook-York Mills,2025,123.0,Forecast
+,42,Banbury-Don Mills,2025,376.0,Forecast
+,43,Victoria Village,2025,265.0,Forecast
+,44,Flemingdon Park,2025,350.0,Forecast
+,46,Pleasant View,2025,150.0,Forecast
+,47,Don Valley Village,2025,437.0,Forecast
+,48,Hillcrest Village,2025,191.0,Forecast
+,49,Bayview Woods-Steeles,2025,122.0,Forecast
+,50,Newtonbrook East,2025,286.0,Forecast
+,52,Bayview Village,2025,313.0,Forecast
+,53,Henry Farm,2025,266.0,Forecast
+,54,OConnor-Parkview,2025,296.0,Forecast
+,55,Thorncliffe Park,2025,308.0,Forecast
+,56,Leaside-Bennington,2025,196.0,Forecast
+,57,Broadview North,2025,168.0,Forecast
+,58,Old East York,2025,132.0,Forecast
+,59,Danforth East York,2025,190.0,Forecast
+,60,Woodbine-Lumsden,2025,107.0,Forecast
+,61,Taylor-Massey,2025,244.0,Forecast
+,62,East End-Danforth,2025,448.0,Forecast
+,63,The Beaches,2025,301.0,Forecast
+,64,Woodbine Corridor,2025,199.0,Forecast
+,65,Greenwood-Coxwell,2025,294.0,Forecast
+,66,Danforth,2025,243.0,Forecast
+,67,Playter Estates-Danforth,2025,219.0,Forecast
+,68,North Riverdale,2025,195.0,Forecast
+,69,Blake-Jones,2025,134.0,Forecast
+,70,South Riverdale,2025,708.0,Forecast
+,71,Cabbagetown-South StJames Town,2025,322.0,Forecast
+,72,Regent Park,2025,290.0,Forecast
+,73,Moss Park,2025,1045.0,Forecast
+,74,North StJames Town,2025,453.0,Forecast
+,78,Kensington-Chinatown,2025,1239.0,Forecast
+,79,University,2025,357.0,Forecast
+,80,Palmerston-Little Italy,2025,228.0,Forecast
+,81,Trinity-Bellwoods,2025,353.0,Forecast
+,83,Dufferin Grove,2025,308.0,Forecast
+,84,Little Portugal,2025,297.0,Forecast
+,85,South Parkdale,2025,461.0,Forecast
+,86,Roncesvalles,2025,322.0,Forecast
+,87,High Park-Swansea,2025,243.0,Forecast
+,88,High Park North,2025,326.0,Forecast
+,89,Runnymede-Bloor West Village,2025,138.0,Forecast
+,90,Junction Area,2025,345.0,Forecast
+,91,Weston-Pelham Park,2025,207.0,Forecast
+,92,Corso Italia-Davenport,2025,251.0,Forecast
+,94,Wychwood,2025,156.0,Forecast
+,95,Annex,2025,1023.0,Forecast
+,96,Casa Loma,2025,156.0,Forecast
+,97,Yonge-StClair,2025,126.0,Forecast
+,98,Rosedale-Moore Park,2025,563.0,Forecast
+,99,Mount Pleasant East,2025,179.0,Forecast
+,100,Yonge-Eglinton,2025,275.0,Forecast
+,101,Forest Hill South,2025,153.0,Forecast
+,102,Forest Hill North,2025,163.0,Forecast
+,103,Lawrence Park South,2025,182.0,Forecast
+,105,Lawrence Park North,2025,178.0,Forecast
+,106,Humewood-Cedarvale,2025,191.0,Forecast
+,107,Oakwood Village,2025,305.0,Forecast
+,108,Briar Hill-Belgravia,2025,264.0,Forecast
+,109,Caledonia-Fairbank,2025,121.0,Forecast
+,110,Keelesdale-Eglinton West,2025,182.0,Forecast
+,111,Rockcliffe-Smythe,2025,384.0,Forecast
+,112,Beechborough-Greenbrook,2025,186.0,Forecast
+,113,Weston,2025,525.0,Forecast
+,114,Lambton Baby Point,2025,80.0,Forecast
+,115,Mount Dennis,2025,261.0,Forecast
+,116,Steeles,2025,162.0,Forecast
+,118,Tam OShanter-Sullivan,2025,326.0,Forecast
+,119,WexfordMaryvale,2025,878.0,Forecast
+,120,Clairlea-Birchmount,2025,609.0,Forecast
+,121,Oakridge,2025,351.0,Forecast
+,122,Birchcliffe-Cliffside,2025,368.0,Forecast
+,123,Cliffcrest,2025,299.0,Forecast
+,124,Kennedy Park,2025,435.0,Forecast
+,125,Ionview,2025,197.0,Forecast
+,126,Dorset Park,2025,491.0,Forecast
+,128,Agincourt South-Malvern West,2025,421.0,Forecast
+,129,Agincourt North,2025,299.0,Forecast
+,130,Milliken,2025,465.0,Forecast
+,133,Centennial Scarborough,2025,120.0,Forecast
+,134,Highland Creek,2025,173.0,Forecast
+,135,Morningside,2025,183.0,Forecast
+,136,West Hill,2025,700.0,Forecast
+,138,Eglinton East,2025,402.0,Forecast
+,139,Scarborough Village,2025,312.0,Forecast
+,140,Guildwood,2025,106.0,Forecast
+,141,Golfdale-Cedarbrae-Woburn,2025,368.0,Forecast
+,142,Woburn North,2025,439.0,Forecast
+,143,West Rouge,2025,229.0,Forecast
+,144,Morningside Heights,2025,379.0,Forecast
+,145,Malvern West,2025,219.0,Forecast
+,146,Malvern East,2025,298.0,Forecast
+,147,LAmoreaux West,2025,274.0,Forecast
+,148,East LAmoreaux,2025,205.0,Forecast
+,149,Parkwoods-OConnor Hills,2025,186.0,Forecast
+,150,Fenside-Parkwoods,2025,225.0,Forecast
+,151,Yonge-Doris,2025,274.0,Forecast
+,152,East Willowdale,2025,249.0,Forecast
+,153,Avondale,2025,143.0,Forecast
+,154,Oakdale-Beverley Heights,2025,689.0,Forecast
+,155,Downsview,2025,386.0,Forecast
+,156,Bendale-Glen Andrew,2025,465.0,Forecast
+,157,Bendale South,2025,149.0,Forecast
+,158,Islington,2025,369.0,Forecast
+,159,Etobicoke City Centre,2025,747.0,Forecast
+,160,Mimico-Queensway,2025,1021.0,Forecast
+,161,Humber Bay Shores,2025,261.0,Forecast
+,162,West Queen West,2025,274.0,Forecast
+,163,Fort York-Liberty Village,2025,316.0,Forecast
+,164,Wellington Place,2025,909.0,Forecast
+,165,Harbourfront-CityPlace,2025,491.0,Forecast
+,166,St Lawrence-East Bayfront-The Islands,2025,862.0,Forecast
+,167,Church-Wellesley,2025,650.0,Forecast
+,168,Downtown Yonge East,2025,1270.0,Forecast
+,169,Bay-Cloverhill,2025,341.0,Forecast
+,170,Yonge-Bay Corridor,2025,1050.0,Forecast
+,171,Junction-Wallace Emerson,2025,444.0,Forecast
+,172,Dovercourt Village,2025,271.0,Forecast
+,173,North Toronto,2025,209.0,Forecast
+,174,South Eglinton-Davisville,2025,248.0,Forecast
