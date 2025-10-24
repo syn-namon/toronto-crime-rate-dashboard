@@ -170,8 +170,8 @@ if not bar_chart_df.empty:
         tooltip=['AREA_NAME', 'Year', 'Total_Crimes', 'Data_Type']
     ).properties(
         title=f'Crime Volume by Neighbourhood, {from_year:d} to {to_year:d}',
-        height=500,
-        width=700
+        ##height=500,
+        width=500
     ).interactive() # Allow zooming/panning
 
     st.altair_chart(bar_chart, use_container_width=True)
