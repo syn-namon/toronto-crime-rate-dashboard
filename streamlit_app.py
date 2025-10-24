@@ -149,7 +149,7 @@ if not bar_chart_df.empty:
     bar_chart = alt.Chart(bar_chart_df).mark_bar().encode( # Use the new bar_chart_df
         # X-axis: Year (Nominal type for discrete bars). 
         # Added scale=alt.Scale(rangeStep=25) to explicitly control bar width and spacing
-        x=alt.X('Year:N', title='Year', scale=alt.Scale(rangeStep=20)), 
+        x=alt.X('Year:N', title='Year'), 
         
         # Y-axis: Total Crimes
         y=alt.Y('Total_Crimes:Q', title='Total Crime Volume'),
@@ -171,8 +171,8 @@ if not bar_chart_df.empty:
         tooltip=['AREA_NAME', 'Year', 'Total_Crimes', 'Data_Type']
     ).properties(
         title=f'Crime Volume by Neighbourhood, {from_year:d} to {to_year:d}',
-        ##height=500, # Set height to make more space for the chart and legend
-        ##width=400 # Reduced width further to 400px
+        height=350, 
+        width=400
     ).interactive() # Allow zooming/panning
 
     # Set use_container_width=False to respect the fixed width setting
