@@ -185,15 +185,23 @@ st.header(f'Crime Volume Comparison ({START_COMPARE_YEAR:d} vs. {END_COMPARE_YEA
 
 st.write(f"Comparing total crime volume per neighbourhood between {START_COMPARE_YEAR} (Actual) and {END_COMPARE_YEAR} (Forecast).")
 
+# NEW LOGIC: Combine selected hoods from the main filter and the bar chart filter
+all_hoods_for_comparison = set(selected_hoods)
+# Add the single selected hood from the bar chart to the set to ensure uniqueness
+all_hoods_for_comparison.add(bar_selected_hood)
+comparison_hoods = sorted(list(all_hoods_for_comparison))
+
+
 # Filter for the specific fixed comparison years
 first_year_df = crime_df.loc[crime_df['Year'] == START_COMPARE_YEAR]
 last_year_df = crime_df.loc[crime_df['Year'] == END_COMPARE_YEAR]
 
 # Create columns for the metric display (up to 4 per row)
-# NOTE: This section still uses the global 'selected_hoods' list from the top filter
-cols = st.columns(min(4, len(selected_hoods)))
+# ADJUSTED: Use the combined list of hoods for metric display
+cols = st.columns(min(4, len(comparison_hoods)))
 
-for i, hood in enumerate(selected_hoods):
+# ADJUSTED: Iterate over the combined list of hoods
+for i, hood in enumerate(comparison_hoods):
     # Use the modulo operator to cycle through columns if more than 4 hoods are selected
     col = cols[i % len(cols)] 
 
