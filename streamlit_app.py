@@ -9,7 +9,7 @@ import altair as alt # Import Altair for advanced charting
 # Set the title and favicon that appear in the Browser's tab bar.
 st.set_page_config(
     page_title='Toronto Crime Volume Dashboard',
-    page_icon=':police_car:',
+    page_icon=':police_car:', 
     layout='wide'
 )
 
@@ -20,7 +20,7 @@ def get_crime_data():
 
     # Update the data path to reference the expected file name
     # The file path must be relative to where the Streamlit app is run
-    DATA_FILENAME = Path(__file__).parent / 'data/crime_per_hood_with_forecast_for_2025.csv'
+    DATA_FILENAME = Path(__file__).parent / 'data/processed_data/crime_per_hood_with_forecast_for_2025.csv'
     
     try:
         # Load the combined data (historical + forecast)
@@ -147,8 +147,9 @@ if not bar_chart_df.empty:
     
     # Create the Altair chart object
     bar_chart = alt.Chart(bar_chart_df).mark_bar().encode( # Use the new bar_chart_df
-        # X-axis: Year (Nominal type for discrete bars). Altair handles this correctly by default.
-        x=alt.X('Year:N', title='Year'), 
+        # X-axis: Year (Nominal type for discrete bars). 
+        # Added scale=alt.Scale(rangeStep=25) to explicitly control bar width and spacing
+        x=alt.X('Year:N', title='Year', scale=alt.Scale(rangeStep=25)), 
         
         # Y-axis: Total Crimes
         y=alt.Y('Total_Crimes:Q', title='Total Crime Volume'),
@@ -170,11 +171,12 @@ if not bar_chart_df.empty:
         tooltip=['AREA_NAME', 'Year', 'Total_Crimes', 'Data_Type']
     ).properties(
         title=f'Crime Volume by Neighbourhood, {from_year:d} to {to_year:d}',
-        ##height=500,
-        width=500
+        height=500, # Set height to make more space for the chart and legend
+        width=400 # Reduced width further to 400px
     ).interactive() # Allow zooming/panning
 
-    st.altair_chart(bar_chart, use_container_width=True)
+    # Set use_container_width=False to respect the fixed width setting
+    st.altair_chart(bar_chart, use_container_width=False)
 
 # --- Metric Comparison (Fixed 2024 vs 2025) ---
 
