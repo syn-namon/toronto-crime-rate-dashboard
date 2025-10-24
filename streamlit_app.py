@@ -25,7 +25,7 @@ def get_crime_data():
 
     # Update the data path to reference the expected file name
     # The file path must be relative to where the Streamlit app is run
-    DATA_FILENAME = Path(__file__).parent / 'data/crime_per_hood_with_forecast_for_2025.csv'
+    DATA_FILENAME = Path(__file__).parent / 'data/processed_data/crime_per_hood_with_forecast_for_2025.csv'
     
     try:
         # Load the combined data (historical + forecast)
