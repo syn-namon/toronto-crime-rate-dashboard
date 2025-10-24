@@ -25,7 +25,7 @@ def get_crime_data():
 
     # Update the data path to reference the expected file name
     # The file path must be relative to where the Streamlit app is run
-    DATA_FILENAME = Path(__file__).parent / 'data/processed_data/crime_per_hood_with_forecast_for_2025.csv'
+    DATA_FILENAME = Path(__file__).parent / 'data/crime_per_hood_with_forecast_for_2025.csv'
     
     try:
         # Load the combined data (historical + forecast)
@@ -62,7 +62,7 @@ if crime_df.empty:
 '''
 # :police_car: Toronto Crime Forecast Dashboard
 
-Explore the historical crime volume data (2014-2024) and the **ARIMA model forecast for 2025** across Toronto's neighborhoods.
+Explore the historical crime volume data (2014-2024) and the **ARIMA model forecast for 2025** across Toronto's neighbourhoods.
 '''
 
 # Add some spacing
@@ -110,9 +110,13 @@ filtered_crime_df = crime_df.loc[
 # --- Line Chart Visualization ---
 st.header('Crime Volume Trend Over Time', divider='gray')
 
+# FIX: Create a string version of the Year for plotting to remove the thousands separator
+line_chart_data = filtered_crime_df.copy()
+line_chart_data['Year_str'] = line_chart_data['Year'].astype(str)
+
 st.line_chart(
-    filtered_crime_df,
-    x='Year',
+    line_chart_data,
+    x='Year_str', # Use the string column here
     y='Total_Crimes', 
     color='AREA_NAME',
     use_container_width=True
@@ -147,7 +151,7 @@ if not bar_chart_df.empty:
     
     # Create the Altair chart object
     bar_chart = alt.Chart(bar_chart_df).mark_bar().encode( # Use the new bar_chart_df
-        # X-axis: Year (Nominal type for discrete bars)
+        # X-axis: Year (Nominal type for discrete bars). Altair handles this correctly by default.
         x=alt.X('Year:N', title='Year'), 
         
         # Y-axis: Total Crimes
