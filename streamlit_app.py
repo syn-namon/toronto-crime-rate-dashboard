@@ -116,8 +116,8 @@ st.line_chart(
     y='Total_Crimes', 
     color='AREA_NAME',
     height=400, 
-    width=1000,
-    use_container_width=True
+    width=1000
+    ##use_container_width=True
 )
 
 st.write('')
