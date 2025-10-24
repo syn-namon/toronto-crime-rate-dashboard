@@ -9,7 +9,7 @@ import altair as alt # Import Altair for advanced charting
 # Set the title and favicon that appear in the Browser's tab bar.
 st.set_page_config(
     page_title='Toronto Crime Volume Dashboard',
-    page_icon=':police_car:', # Changed icon to better fit the theme
+    page_icon=':police_car:',
     layout='wide'
 )
 
@@ -17,11 +17,6 @@ st.set_page_config(
 
 @st.cache_data
 def get_crime_data():
-    """Grab crime data from a CSV file.
-    
-    NOTE: This assumes the CSV is already in the long format:
-    AREA_NAME, Year, Total_Crimes, HOOD_ID, Data_Type
-    """
 
     # Update the data path to reference the expected file name
     # The file path must be relative to where the Streamlit app is run
@@ -110,13 +105,14 @@ filtered_crime_df = crime_df.loc[
 # --- Line Chart Visualization ---
 st.header('Crime Volume Trend Over Time', divider='gray')
 
-# FIX: Create a string version of the Year for plotting to remove the thousands separator
+# FIX: Rename the 'Year' column in the plotting data to a string type.
+# This prevents the thousands separator (e.g., 2,023) and allows the axis label to be 'Year'.
 line_chart_data = filtered_crime_df.copy()
-line_chart_data['Year_str'] = line_chart_data['Year'].astype(str)
+line_chart_data['Year'] = line_chart_data['Year'].astype(str)
 
 st.line_chart(
     line_chart_data,
-    x='Year_str', # Use the string column here
+    x='Year', # Now uses the string column, and labels the axis 'Year'
     y='Total_Crimes', 
     color='AREA_NAME',
     use_container_width=True
@@ -174,6 +170,7 @@ if not bar_chart_df.empty:
         tooltip=['AREA_NAME', 'Year', 'Total_Crimes', 'Data_Type']
     ).properties(
         title=f'Crime Volume by Neighbourhood, {from_year:d} to {to_year:d}',
+        height=500 # Set height to make more space for the chart and legend
     ).interactive() # Allow zooming/panning
 
     st.altair_chart(bar_chart, use_container_width=True)
