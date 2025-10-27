@@ -243,7 +243,7 @@ The current model's primary limitation is its pure reliance on the crime time se
 
 To improve predictive reliability and gain deeper insights future model development should shift toward an ARIMAX framework. This would involve incorporating these external, influencing features as model inputs, thereby enhancing accuracy and providing a more comprehensive understanding of the factors driving Toronto's crime trends.
 
-**The details report and recommendations could be found [here](https://sites.google.com/view/crime-volume-in-toronto-analys/home)**
+**The detailed report and recommendations could be found here: [Crime Volume in Toronto Analysis Report](https://sites.google.com/view/crime-volume-in-toronto-analys/home)**
 
 # Credits and Source
 
